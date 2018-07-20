@@ -1,16 +1,15 @@
 /*Modificado el 06-10-2016*/
 
-@charset "iso-8859-2";
-
-#article_i__wd_pa_presentacion_1 .caption p {
-font-size: 1em;
-}
+#article_i__wd_pa_presentacion_1 .caption p
+ {
+    font-size: 1em;
+ }
 
 .inv-desktop { display:none;}
 
 
 #menu_principal_id li.cid-515 { display:none;}
-/*#menu_principal_id li.cid-516 { display:none;}  Se comenta esta línea para permitir mostrar elementos nuevos en el menú de secciones lateral */
+/*#menu_principal_id li.cid-516 { display:none;}  Se comenta esta lï¿½nea para permitir mostrar elementos nuevos en el menï¿½ de secciones lateral */
 #menu_principal_id li.cid-517 { display:none;}
 #menu_principal_id li.cid-519 { display:none;}
 #menu_principal_id li.pvid-47686 {
@@ -259,7 +258,7 @@ div#article_i__wd_pa_presentacion_1 > div > div:first-child > div:first-child {
 div#article_i__wd_ar_articulo_cuerpo_normal_1 > div:first-child {
     float: none;
 	margin: 0;
-	/* max-height: 390px; Esto se comenta para que aparezca el pie de foto en portadillas y artículos completos institucionales*/
+	/* max-height: 390px; Esto se comenta para que aparezca el pie de foto en portadillas y artï¿½culos completos institucionales*/
 	max-width: 98%;
 	overflow: hidden;
 	width: 100%;
@@ -1085,7 +1084,7 @@ a#ui-id-23 {
     /*max-height: 335px; 
     height: 335px;
     padding-bottom: 30px;
-	Esto se comenta para que aparezca el pie de foto en portadillas y artículos completos institucionales*/
+	Esto se comenta para que aparezca el pie de foto en portadillas y artï¿½culos completos institucionales*/
     overflow: hidden;
     width: 700px;
 }
@@ -1100,7 +1099,7 @@ a#ui-id-23 {
     height: auto;
 /*    max-width: 720px;
     min-width: 704px;
- (Esto se comenta para resolver un problema con reducciones de imágenes en artículos con imagen en cuerpo del eidox)
+ (Esto se comenta para resolver un problema con reducciones de imï¿½genes en artï¿½culos con imagen en cuerpo del eidox)
 */ 
 }
 .articulocompleto table {
@@ -2317,13 +2316,13 @@ div.efecto_moma > div {
     content: "de";
 }
 #paginador ul.controls li.last:after {
-    content: "páginas";
+    content: "pï¿½ginas";
 }
 #paginador ul.controls li.current.last:before {
     content: "";
 }
 #paginador ul.controls li.current.last:after {
-    content: " (Última página)";
+    content: " (ï¿½ltima pï¿½gina)";
 }
 #paginador ul.controls:hover li.last:before, #paginador ul.controls:hover li.last:after {
     content: inherit;
@@ -5054,11 +5053,11 @@ p.fechaInicio:before {
     font-weight: bold;
 }
 p.fechaTermino:before {
-    content: "Término: ";
+    content: "Tï¿½rmino: ";
     font-weight: bold;
 }
 p.fechaIna:before {
-    content: "Inauguración: ";
+    content: "Inauguraciï¿½n: ";
     font-weight: bold;
 }
 p.fechaLugar:before {
@@ -5825,7 +5824,7 @@ div.sombra-footer {
 	 }
 	/*FIN*/
 
-/*Estilos para la lista de publicación*/
+/*Estilos para la lista de publicaciï¿½n*/
 
 #lista_publicacion .recuadro {
 		width:46%;
@@ -6588,9 +6587,9 @@ ul.menudesp2 li:hover > ul {
 	#galeria_recursos {
 	padding-bottom: 15px;
 	}
-.articulocompleto table p {font-size:100%;}
+.articulocompleto table pï¿½{font-size:100%;}
 
-.articulocompleto table p.pie {font-size:85%!important;}
+.articulocompleto table p.pieï¿½{font-size:85%!important;}
 #colorbox {
     height: 450px !important;
     max-height: 500px !important;
@@ -8197,7 +8196,7 @@ span.next{
 }
 
 
-/*Botón pausa play*/
+/*Botï¿½n pausa play*/
 /*btn pausa play*/
 
 span.boton {
@@ -8241,7 +8240,7 @@ span.boton a.play, span.boton a.pause{
 	/*background: url(../images/sprite_pausa_play_go.png) no-repeat -20px -20px;*/
 }
 
-/*botones de páginas*/
+/*botones de pï¿½ginas*/
 #slider ul.indice{
 	bottom: 5px;
     height: 6px;
@@ -8518,7 +8517,7 @@ div#tr_enlaces_web_redes #NTGbtn_english a:before {
 }
 
 /*========= MARQUESINA ===========*/
-/*contenedor extra para marquesina y ver más*/
+/*contenedor extra para marquesina y ver mï¿½s*/
 .contenedor_marquesina_portada {
 	position: relative;
 	}
@@ -8537,13 +8536,13 @@ div#tr_enlaces_web_redes #NTGbtn_english a:before {
 #marquesina_portada_nueva.ntg_marquesina  span.prev {
 	display: none;
 }
-/*Botón pausa play*/
+/*Botï¿½n pausa play*/
 #marquesina_portada_nueva.ntg_marquesina span.boton, 
 #marquesina_portada_nueva.ntg_marquesina span.boton a.play, 
 #marquesina_portada_nueva.ntg_marquesina span.boton a.pause {
 	display: none
 }
-/*botones de páginas*/
+/*botones de pï¿½ginas*/
 #marquesina_portada_nueva.ntg_marquesina  ul.indice {
 	margin: 0;
     padding: 0;
@@ -8777,7 +8776,7 @@ body.dibam517 .contenedor_buscador_enlaces {margin-top: 293px}
 
 /*====== OTROS ESTILOS REQUERIDOS ==========*/
 
-.articulo_vermas { /* Estilo requerido para poner un texto "ver más" a la derecha */
+.articulo_vermas { /* Estilo requerido para poner un texto "ver mï¿½s" a la derecha */
 	float: right;
 }
 
@@ -8819,17 +8818,17 @@ body.dibam517 .contenedor_buscador_enlaces {margin-top: 293px}
 	}	
 
 /**** ARREGLOS ****/	
-/*** 05.05.2016 - Se agrega este estilo para mostrar el caption en las imágenes puestas en el cuerpo del eidox. Ej. aid 58954 del cid 514 ***/	
+/*** 05.05.2016 - Se agrega este estilo para mostrar el caption en las imï¿½genes puestas en el cuerpo del eidox. Ej. aid 58954 del cid 514 ***/	
 div.articulocompleto div.figure {
 	overflow: inherit;
 	}
 
-/*** se agrega este id para esconder el botón de instagram temporalmente ***/
+/*** se agrega este id para esconder el botï¿½n de instagram temporalmente ***/
 #NTGbtn_instagram {
 	display: none!important;
 }
 	
-/*** se agrega esta clase para eliminar el borde del mapa de footer por petición de ticket INC 2016-007893 ***/
+/*** se agrega esta clase para eliminar el borde del mapa de footer por peticiï¿½n de ticket INC 2016-007893 ***/
 .footer_map {
     border-style: none;
     color: #808080;
@@ -8845,9 +8844,9 @@ div.articulocompleto div.figure {
 
 /*** Se agrega esta clase para que en objetos de colecciones digitales se muestre el texto indicado ***/
 .pertenece-coleccion-digital:before {
-  content: "Pertenece a la colección digital ";
+  content: "Pertenece a la colecciï¿½n digital ";
 }
-/*** Se agrega esta clase para esconder vínculos encima del logo de Dibam ***/
+/*** Se agrega esta clase para esconder vï¿½nculos encima del logo de Dibam ***/
 #acceso_canal_1 a {
     color: rgba(0, 0, 0, 0);
 	display: block;
@@ -8860,11 +8859,11 @@ div.articulocompleto div.figure {
 /*p.titulo-foto-invisible {
 	display:none;
 }*/
-/* Se agrega este estilo para corregir desborde de íconos en header */
+/* Se agrega este estilo para corregir desborde de ï¿½conos en header */
 #header {
     max-width: 996px;
 }
-/*Reescribiendo Readspeaker para aplicación en Dibam y sitios de redes 06-06-2017*/
+/*Reescribiendo Readspeaker para aplicaciï¿½n en Dibam y sitios de redes 06-06-2017*/
 div.rs_skip.rsbtn_colorskin,
 div.rs_skip.rsbtn_miniskin,
 div.rs_skip.rsbtn
@@ -9084,7 +9083,7 @@ div.rs_skip.rsbtn a {
 
 .herramientas_recurso {
  /*   top: -30px; */ 
-/* Se comenta esta línea porque provoca que se monten los íconos de redes sociales al previsualizar un eidox de publicación desde el escritorio del Engine. Ej: aid=51067 del cid=518 */
+/* Se comenta esta lï¿½nea porque provoca que se monten los ï¿½conos de redes sociales al previsualizar un eidox de publicaciï¿½n desde el escritorio del Engine. Ej: aid=51067 del cid=518 */
 }
 
 }

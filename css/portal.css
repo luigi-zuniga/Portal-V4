@@ -1,0 +1,807 @@
+/*
+  Portal de recomendaciones CSS.
+*/
+body {
+    overflow-x: hidden;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  }
+  .text-muted {
+    color: #777777;
+  }
+  .text-primary {
+    color: #fed136;
+  }
+  p {
+    font-size: 14px;
+    line-height: 1.75;
+  }
+  p.large {
+    font-size: 16px;
+  }
+  a,
+  a:hover,
+  a:focus,
+  a:active,
+  a.active {
+    outline: none;
+  }
+  a {
+    color: #f70606;
+  }
+  a:hover,
+  a:focus,
+  a:active,
+  a.active {
+    color: #fec503;
+  }
+  
+  
+  h3,
+  h5{
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  h1
+  {
+    font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: capitalize;
+    font-weight: lighter;
+    font-size: 48px;
+    color:#E2712D;
+  }
+  
+  h2
+  {
+    font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: none;
+    font-weight: 500;
+    font-size: 36px;
+    color:#E2712D;
+  }
+  
+  h4
+  {
+    font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: none;
+    font-weight: lighter;
+    font-size: 24px;
+    color:#E2712D;
+  }
+  
+  h6 
+  {
+    font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: none;
+    font-weight: lighter;
+    font-size: 16px;
+    color:#E2712D;
+  }
+  
+  a.link-normal{
+    font-family: "Open Sans",sans-serif;
+    font-size: 18px;
+    color:#4A4A4A;
+    text-decoration: underline;
+    padding-left: 5px;
+  }
+  
+  .footer-description i .fa-book
+  {
+    color:#e2702e;
+  }
+  
+  small
+  {
+    font-size:12px;
+    color:#4A4A4A;
+  }
+  
+  .img-centered {
+    margin: 0 auto;
+  }
+  .bg-light-gray {
+    background-color: #eeeeee;
+  }
+  .bg-darkest-gray {
+    background-color: #222222;
+  }
+  .btn-primary {
+    color: white;
+    background-color: #E2712D;
+    border-color: #E2712D;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    padding:7px 20px;
+  }
+  .btn-primary:hover,
+  .btn-primary:focus,
+  .btn-primary:active,
+  .btn-primary.active,
+  .open .dropdown-toggle.btn-primary {
+    color: white;
+    /*background-color: #fec503;*/
+    /*border-color: #f6bf01;*/
+    background-color:#ff690e;
+    border-color:#ff690e;
+  }
+  .btn-primary:active,
+  .btn-primary.active,
+  .open .dropdown-toggle.btn-primary {
+    background-image: none;
+  }
+  .btn-primary.disabled,
+  .btn-primary[disabled],
+  fieldset[disabled] .btn-primary,
+  .btn-primary.disabled:hover,
+  .btn-primary[disabled]:hover,
+  fieldset[disabled] .btn-primary:hover,
+  .btn-primary.disabled:focus,
+  .btn-primary[disabled]:focus,
+  fieldset[disabled] .btn-primary:focus,
+  .btn-primary.disabled:active,
+  .btn-primary[disabled]:active,
+  fieldset[disabled] .btn-primary:active,
+  .btn-primary.disabled.active,
+  .btn-primary[disabled].active,
+  fieldset[disabled] .btn-primary.active {
+    background-color: #fed136;
+    border-color: #fed136;
+  }
+  .btn-primary .badge {
+    color: #fed136;
+    background-color: white;
+  }
+  .btn-xl {
+    color: white;
+    background-color: #fed136;
+    border-color: #fed136;
+    font-family: "Open Sans",  sans-serif;
+    font-weight: 300;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 20px 40px;
+  }
+  .btn-xl:hover,
+  .btn-xl:focus,
+  .btn-xl:active,
+  .btn-xl.active,
+  .open .dropdown-toggle.btn-xl {
+    color: white;
+    background-color: #fec503;
+    border-color: #f6bf01;
+  }
+  .btn-xl:active,
+  .btn-xl.active,
+  .open .dropdown-toggle.btn-xl {
+    background-image: none;
+  }
+  .btn-xl.disabled,
+  .btn-xl[disabled],
+  fieldset[disabled] .btn-xl,
+  .btn-xl.disabled:hover,
+  .btn-xl[disabled]:hover,
+  fieldset[disabled] .btn-xl:hover,
+  .btn-xl.disabled:focus,
+  .btn-xl[disabled]:focus,
+  fieldset[disabled] .btn-xl:focus,
+  .btn-xl.disabled:active,
+  .btn-xl[disabled]:active,
+  fieldset[disabled] .btn-xl:active,
+  .btn-xl.disabled.active,
+  .btn-xl[disabled].active,
+  fieldset[disabled] .btn-xl.active {
+    background-color: #fed136;
+    border-color: #fed136;
+  }
+  .btn-xl .badge {
+    color: #fed136;
+    background-color: white;
+  }
+  .navbar-custom {
+    background-color: #222222;
+    border-color: transparent;
+  }
+  .navbar-custom .navbar-brand {
+    color: #953F0B;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial,sans-serif;
+    line-height: 32px;
+    font-weight: 600;
+  }
+  
+  
+  .navbar-custom .navbar-header img{
+    float: left;
+    width: 99px;
+    /* margin-bottom: 50px; */
+    padding-right: 18px;
+    margin-top: -15px;
+  }
+  
+  .navbar-custom .navbar-brand:hover,
+  .navbar-custom .navbar-brand:focus,
+  .navbar-custom .navbar-brand:active,
+  .navbar-custom .navbar-brand.active {
+    /*color: #fec503;*/
+    color:#e2702e;
+  }
+  .navbar-custom .navbar-collapse {
+    border-color: rgba(255, 255, 255, 0.02);
+  }
+  .navbar-custom .navbar-toggle {
+    /*background-color: #fed136;*/
+    /*border-color: #fed136;*/
+    background-color:#ff690e;
+    border-color:#ff690e;
+    color: white;
+    /*background-color: #fec503;*/
+    /*border-color: #f6bf01;*/
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px;
+  }
+  .navbar-custom .navbar-toggle:hover,
+  .navbar-custom .navbar-toggle:focus {
+    background-color:#ff690e;
+    border-color:#ff690e;
+  }
+  
+  .container-fluid >.navbar-collapse, 
+  .container-fluid > .navbar-header, 
+  .container > .navbar-collapse, 
+  .container >.navbar-header
+  {
+    background-color:#F5F5F5;
+  }
+  
+  .navbar-custom .nav li a {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: capitalize;
+    /*font-weight: 400;*/
+    /*letter-spacing: 1px;*/
+    /*color: white;*/
+    font-weight: lighter;
+    color:#4A4A4A;
+  }
+  .navbar-custom .nav li a:hover,
+  .navbar-custom .nav li a:focus {
+    /*color: #fed136;*/
+    color: #e2702e;
+    outline: none;
+  }
+  .navbar-custom .navbar-nav > .active > a {
+    border-radius: 0;
+    color: white;
+    background-color: #fed136;
+  }
+  .navbar-custom .navbar-nav > .active > a:hover,
+  .navbar-custom .navbar-nav > .active > a:focus {
+    color: white;
+    background-color: #fec503;
+  }
+  
+  @media(max-width: 768px)
+  {
+    .navbar-custom .navbar-brand 
+    {
+      font-size:16px;
+      line-height: 12px;
+      font-weight: 600;
+    }
+  
+    .navbar-custom .navbar-header img
+    {
+      width: 40px;
+      margin-top: -11px;
+      margin-right:6px;
+      padding-right: 0px;
+    }
+  
+    .navbar-form
+    {
+      padding:10px 30px;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+  
+  
+    .btn-primary {
+      margin-top: 5px;
+      padding: 7px 44%;
+    }
+  
+  
+  
+    header
+    {
+      margin-top:53px;
+    }
+  
+    header .intro-text .intro-lead-in
+    {
+  
+      font-size:24px;
+      line-height: 25px;
+      margin-bottom: 0px;
+      margin-top: 40px;
+    }
+  
+    section h2.section-heading
+    {
+      font-size:23px;
+    }
+  
+    .footer-description i {
+      font-size: 20px;
+    }
+  
+  
+    
+  }
+  
+  @media (min-width: 768px) {
+    .navbar-custom {
+      /*background-color: transparent;*/
+      background-color:#F7F7F7;
+      padding: 10px 0;
+      -webkit-transition: padding 0.3s;
+      -moz-transition: padding 0.3s;
+      transition: padding 0.3s;
+      border: none;
+    }
+  
+    .navbar-custom .navbar-brand {
+      font-size: 2em;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s;
+    }
+    .navbar-custom .navbar-nav > .active > a {
+      border-radius: 3px;
+    }
+  }
+  @media (min-width: 768px) {
+    .navbar-custom.affix {
+       /*background-color: #222222;*/
+       background-color:#F5F5F5;
+       padding: 0px 0;
+       border-bottom:solid 2px #DD956A;
+    }
+    .navbar-custom.affix .navbar-brand {
+      font-size: 2em;
+    }
+  }
+  header {
+    background-image: url('../img/img-portada.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    color: white;
+  }
+  
+  .intro-lead-in
+  header .intro-text {
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+  
+  header .intro-text .intro-lead-in {
+    font-family: "Oswald", sans-serif;
+    font-size: 26;
+    line-height: 22px;
+    margin-bottom: 25px;
+  
+  }
+  
+  @media (min-width: 768px) {
+    header .intro-text {
+      padding-top: 250px;
+      padding-bottom: 100px;
+    }
+    header .intro-text .intro-lead-in {
+      font-family: "Oswald", sans-serif;
+      font-size: 46px;
+      line-height: 50px;
+      margin-bottom: 25px;
+      word-spacing: 3px;
+    }
+  
+    .navbar-form
+    {
+       margin-left: 140px;
+    }
+    .navbar-form .form-control {
+      width: 240px;
+    }
+  
+  }
+  
+  section {
+    padding: 40px 0;
+  }
+  
+  section h2.section-heading {
+    font-family: "Oswald", sans-serif;
+    color:#E2712D;
+    font-weight: lighter;
+    text-transform:none;
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+  
+  section h2.section-heading small
+  {
+    font-size:20px;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    text-transform: capitalize;
+    text-decoration: underline;
+  }
+  
+  @media (min-width: 768px) {
+    section {
+      padding: 60px 0;
+    }
+  }
+  .service-heading {
+    margin: 15px 0;
+    text-transform: none;
+  }
+  
+  
+  /** Libros Recomendados **/
+  
+  #ejemplar .ejemplar-item {
+    margin: 0 0 15px;
+    right: 0;
+  }
+  
+  #ejemplar .ejemplar-item .ejemplar-link {
+    display: block;
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  
+  #ejemplar .ejemplar-item .ejemplar-link .ejemplar-hover {
+    
+    background: #E2712D;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+  }
+  
+  #ejemplar .ejemplar-item .ejemplar-link .ejemplar-hover:hover {
+    opacity: 0.9;
+  }
+  
+  #ejemplar .ejemplar-item .ejemplar-link .ejemplar-hover .ejemplar-hover-content {
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    font-size: 20px;
+    text-align: center;
+    top: 50%;
+    margin-top: -12px;
+    color: white; 
+  }
+  
+  #ejemplar .ejemplar-item .ejemplar-link .ejemplar-hover .ejemplar-hover-content span
+  {
+    font-family: "Open Sans",sans-serif;
+    font-size: 16px;
+    padding-left: 10px;
+    text-decoration: underline;
+  }
+  
+  #ejemplar .ejemplar-item .ejemplar-link .portafolio-categoria
+  {
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  #ejemplar .ejemplar-item .ejemplar-link .portafolio-publicacion
+  {
+    font-size: 12px;
+    margin-top: -30px;
+    margin-left: 10px;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  
+  #recomendaciones-panel .recomendaciones-item .recomendaciones-link
+  {
+    display: block;
+    position: relative;
+    max-width: auto;
+    margin: 0 auto;
+    text-decoration: none;
+  }
+  
+  
+  #recomendaciones-panel .recomendaciones-item .recomendaciones-link span
+  {
+    font-family: "Open Sans";
+    font-size:16px;
+    padding-left:10px;
+    text-decoration: underline;
+  }
+  
+  #recomendaciones-panel 
+  .recomendaciones-item 
+  .recomendaciones-link
+  .recomendaciones-hover {
+    background: #E2712D;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    margin-left: -16px;
+    margin-top: -16px;
+    border-radius:3px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    -ms-border-radius:3px;
+    -o-border-radius:3px;
+  }
+  
+  #recomendaciones-panel .recomendaciones-item .recomendaciones-link .recomendaciones-hover:hover {
+    opacity: 0.9;
+  }
+  
+  #recomendaciones-panel .recomendaciones-item .recomendaciones-link .recomendaciones-hover .recomendaciones-hover-content {
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    font-size: 20px;
+    text-align: center;
+    top: 50%;
+    margin-top: -12px;
+    color: white;
+  }
+  
+  #recomendaciones-panel * {
+    z-index: 2;
+  }
+  
+  
+  
+  .box-recomendaciones
+  {
+    padding-top:0px;
+    padding-bottom: 0px;
+    margin-top:-20px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-recomedacion i
+  {
+    color:#e2702e;
+    margin-left:38%;
+    font-size: 30px;
+  }
+  
+  
+  
+  #ejemplar .ejemplar-item .ejemplar-link .ejemplar-hover .ejemplar-hover-content i{
+    margin-top: -12px;
+  }
+  
+  #ejemplar .ejemplar-item .ejemplar-link .ejemplar-hover .ejemplar-hover-content small,
+  {
+    margin: 0;
+  }
+  
+  #ejemplar .ejemplar-item .ejemplar-caption {
+    max-width: 400px;
+    background-color:#EDEDED;
+    text-align: left;
+  }
+  
+  #ejemplar .ejemplar-item .ejemplar-caption h4 {
+    text-transform: none;
+    margin: 0;
+  }
+  
+  #ejemplar .ejemplar-item .ejemplar-caption small {
+    font-size: 11px;
+    margin: 0;
+  }
+  
+  #ejemplar * {
+    z-index: 2;
+  }
+  @media (min-width: 767px) {
+    #ejemplar .ejemplar-item {
+      margin: 0 0 30px;
+    }
+  }
+  
+  /** End Libros Recomendados **/
+  
+  
+  .ejemplar-modal .modal-dialog {
+    margin: 0;
+    height: 100%;
+    width: auto;
+  }
+  .ejemplar-modal .modal-content {
+    border-radius: 0;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    min-height: 100%;
+    padding: 100px 0;
+    text-align: center;
+  }
+  .ejemplar-modal .modal-content h2 {
+    margin-bottom: 15px;
+    font-size: 3em;
+  }
+  .ejemplar-modal .modal-content p {
+    margin-bottom: 30px;
+  }
+  .ejemplar-modal .modal-content p.item-intro {
+    margin: 20px 0 30px;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 16px;
+  }
+  .ejemplar-modal .modal-content ul.list-inline 
+  {
+    margin-bottom: 30px;
+    margin-top: 0;
+  }
+  .ejemplar-modal .modal-content img 
+  {
+    margin-bottom: 30px;
+  }
+  .ejemplar-modal .close-modal 
+  {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    top: 25px;
+    right: 25px;
+    cursor: pointer;
+  }
+  .ejemplar-modal .close-modal:hover 
+  {
+    opacity: 0.3;
+  }
+  
+  .ejemplar-modal .close-modal .lr {
+    height: 35px;
+    width: 1px;
+    margin-left: 35px;
+    background-color:#e2702e;
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    /* IE 9 */
+    -webkit-transform: rotate(45deg);
+    /* Safari and Chrome */
+    z-index: 1051;
+  }
+  
+  .ejemplar-modal .close-modal .lr .rl {
+    height: 35px;
+    width: 1px;
+    background-color:#e2702e;
+    transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    /* IE 9 */
+    -webkit-transform: rotate(90deg);
+    /* Safari and Chrome */
+    z-index: 1052;
+  }
+  
+  .ejemplar-modal .modal-backdrop {
+    opacity: 0;
+    display: none;
+  }
+  
+  ::-moz-selection {
+    text-shadow: none;
+    background: #e2712d;
+  }
+  ::selection {
+    text-shadow: none;
+    background: #e2712d;
+  }
+  img::selection {
+    background: transparent;
+  }
+  img::-moz-selection {
+    background: transparent;
+  }
+  body {
+    webkit-tap-highlight-color: #e2712d;
+  }
+  
+  
+  /*********************** Recomendaciones *************************/
+  
+  /*Label Modificaciones*/
+  .label-default {
+    background-color: #FFFFFF;
+    color: #E2712D;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    border: 1px solid #E2712D;
+    padding: 5px 15px;
+  }
+  
+  .panel
+  {
+    border:1px solid #DD956A;
+  }
+  
+  .footer-description {
+    margin-top:10px;
+    margin-bottom: 0px;
+  }
+  
+  .footer-description > i{
+    color:#e2702e;
+    padding-left:90px;
+    font-size: 30px;
+  }
+  
+  
+  .panel-body h4
+  {
+    margin-top:-5px; 
+  }
+  
+  
+  .form-control::-webkit-input-placeholder 
+  {
+      font-style:italic;
+      color:#DD956A ; 
+  }  /* WebKit, Blink, Edge */
+  
+  .form-control:-moz-placeholder 
+  { 
+      font-style:italic;
+      color:#DD956A ; 
+  }  /* Mozilla Firefox 4 to 18 */
+  
+  .form-control::-moz-placeholder 
+  { 
+      font-style:italic;
+      color:#DD956A ;
+   }  /* Mozilla Firefox 19+ */
+  
+  .form-control:-ms-input-placeholder 
+  {
+      font-style:italic;
+      color:#DD956A ; 
+  }  /* Internet Explorer 10-11 */
+  
+  .form-control::-ms-input-placeholder
+  {
+       font-style:italic;
+       color:#DD956A ;
+  }  /* Microsoft Edge */
+  

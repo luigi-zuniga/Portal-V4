@@ -1,34 +1,26 @@
-<!DOCTYPE html
-  PUBLIC "-//W3C//DTD HTML 4.01+RDFa 1.1//EN" "http://www.w3.org/MarkUp/DTD/html401-rdfa11-1.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="es-CL">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1252">
-    <meta name="Content-Encoding" content="iso-8859-1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
-    <meta http-equiv="Content-Language" content="es" />
-    <title>Recomendaciones de Lectura - Sistema Nacional de Bibliotecas P�blicas</title>
+    <title>Recomendaciones de Lectura - Sistema Nacional de Bibliotecas Públicas</title>
     <link rel="shortcut icon" href="boxes-6238_favicon.ico">
+
+    <!--Fuentes-->
     <link href="http://fonts.googleapis.com/css?family=Pontano+Sans" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    
+    <link href="css/complete.css" rel="stylesheet" type="text/css"/>
+
     <link rel="stylesheet" media="only screen and (-webkit-min-device-pixel-ratio: 2)" type="text/css" href="css/iphone4.css">
-    <style type="text/css">
-        @import "css/complete.css";
-    </style>
+    
+
+    
     <link href="css/channels-514_awesome_webfont_css.css" rel="stylesheet" type="text/css">
-    <script type="text/javascript" src="js/channels-524_js_main.js"></script>
-    <script type="text/javascript" src="js/channels-524_js_jquery_1_9_1.js"></script>
-    <script type="text/javascript" src="js/channels-524_js_jqueryui_1_10_3.js"></script>
-    <script type="text/javascript" src="js/channels-524_js_jquerymigration_1_2_1.js"></script>
-    <script type="text/javascript" src="js/boxes-7976_js_file.js"></script>
-    <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyClV8QvrJtON__TUj5W7Q8mWCM6BKglZ4M"></script>
-    <script type="text/javascript">< !--
-            $(document).ready(function () {
-                ntg_Google_map_init();
-            }); //-->
-    </script>
-    <script type="text/javascript" src="js/boxes-12060_js_file.js"></script>
-    <script type="text/javascript" src="js/jquery.carouFredSel-5.6.2.js"></script>
+
 </head>
 
 <body class="inicio museos dibam524">
@@ -42,7 +34,7 @@
                 <div title="Logo" class="logo_inmerso">
                     <div style="width:100%; height:75%;">
                         <div id="acceso_canal">
-                            <a href="http://www.bibliotecaspublicas.cl/sitio/" title="Ir a Sistema Nacional de Bibliotecas P�blicas">Sistema Nacional de Bibliotecas P�blicas</a>
+                            <a href="http://www.bibliotecaspublicas.cl/sitio/" title="Ir a Sistema Nacional de Bibliotecas Públicas">Sistema Nacional de Bibliotecas Públicas</a>
                         </div>
                     </div>
                     <div style="width:100%; height:20%;">
@@ -62,11 +54,11 @@
                         </div>
                         <div id="NTGbtn_facebook" class="blank">
                             <a href="https://www.facebook.com/pages/Sistema-Nacional-de-Bibliotecas-P%C3%BAblicas/103920149702980"
-                                title="Ir a ">Encu�ntranos en Facebook</a>
+                                title="Ir a ">Encuentranos en Facebook</a>
                             <div style="display:none"></div>
                         </div>
                         <div id="NTGbtn_twitter" class="blank">
-                            <a href="https://twitter.com/bibliotecassnbp" title="Ir a ">Encu�ntranos en Twitter</a>
+                            <a href="https://twitter.com/bibliotecassnbp" title="Ir a ">Encuentranos en Twitter</a>
                             <div style="display:none"></div>
                         </div>
                         <div id="NTGbtn_youtube" class="blank">
@@ -104,7 +96,7 @@
                             <div style="display:none"></div>
                         </div>
                         <div id="NTGbtn_mapa">
-                            <a href="http://www.bibliotecaspublicas.cl/sitio/Mapa-del-sitio" title="Ir a Sistema Nacional de Bibliotecas P�blicas">Mapa del sitio</a>
+                            <a href="http://www.bibliotecaspublicas.cl/sitio/Mapa-del-sitio" title="Ir a Sistema Nacional de Bibliotecas Públicas">Mapa del sitio</a>
                         </div>
                         <div id="NTGbtn_rss" class="blank">
                             <a href="http://www.bibliotecaspublicas.cl/rss3-channel.rss" title="Ir a RSS">RSS</a>
@@ -123,10 +115,10 @@
                 <a id="boton_movil" href="javascript:toggleBlock('menu_principal_id','boton_movil','abierto');" class="btn_menu_movil">Menu</a>
                 <ul id="menu_principal_id" class="menudesp2">
                     <li class=" pvid-40565 cid-524">
-                        <a href="http://www.bibliotecaspublicas.cl/sitio/Secciones/Quienes-somos/">Qui�nes somos</a>
+                        <a href="http://www.bibliotecaspublicas.cl/sitio/Secciones/Quienes-somos/">Quienes somos</a>
                         <ul>
                             <li class=" pvid-40569 cid-524">
-                                <a href="http://www.bibliotecaspublicas.cl/sitio/Secciones/Quienes-somos/Mision/">Misi�n </a>
+                                <a href="http://www.bibliotecaspublicas.cl/sitio/Secciones/Quienes-somos/Mision/">Misión </a>
                             </li>
                             <li class=" pvid-40566 cid-524">
                                 <a href="http://www.bibliotecaspublicas.cl/sitio/Secciones/Quienes-somos/Historia/">Historia</a>
@@ -137,22 +129,22 @@
                         </ul>
                     </li>
                     <li class=" pvid-40575 cid-524">
-                        <a href="http://www.bibliotecaspublicas.cl/sitio/Secciones/Que-hacemos/">Qu� hacemos</a>
+                        <a href="http://www.bibliotecaspublicas.cl/sitio/Secciones/Que-hacemos/">Que hacemos</a>
                         <ul>
                             <li class=" pvid-40583 cid-524">
                                 <a href="http://www.bibliotecaspublicas.cl/sitio/Secciones/Que-hacemos/Colecciones/">Colecciones</a>
                             </li>
                             <li class=" pvid-40584 cid-524">
-                                <a href="http://www.bibliotecaspublicas.cl/sitio/Secciones/Que-hacemos/Construccion-de-bibliotecas/">Construcci�n de bibliotecas</a>
+                                <a href="http://www.bibliotecaspublicas.cl/sitio/Secciones/Que-hacemos/Construccion-de-bibliotecas/">Construcción de bibliotecas</a>
                             </li>
                             <li class=" pvid-40576 cid-524">
-                                <a href="http://www.bibliotecaspublicas.cl/sitio/Secciones/Que-hacemos/Automatizacion/">Automatizaci�n</a>
+                                <a href="http://www.bibliotecaspublicas.cl/sitio/Secciones/Que-hacemos/Automatizacion/">Automatización</a>
                             </li>
                             <li class=" pvid-40588 cid-524">
                                 <a href="http://www.bibliotecaspublicas.cl/sitio/Secciones/Que-hacemos/Plan-Nacional-de-la-Lectura/">Plan Nacional de la Lectura </a>
                             </li>
                             <li class=" pvid-72900 cid-524">
-                                <a href="http://www.bibliotecaspublicas.cl/sitio/Secciones/Que-hacemos/Politica-de-donaciones/">Pol�tica de donaciones</a>
+                                <a href="http://www.bibliotecaspublicas.cl/sitio/Secciones/Que-hacemos/Politica-de-donaciones/">Política de donaciones</a>
                             </li>
                         </ul>
                     </li>
@@ -169,22 +161,22 @@
                                 <a href="http://www.bibliotecaspublicas.cl/sitio/Secciones/Servicios/Bibliotecas-regionales/">Bibliotecas regionales</a>
                             </li>
                             <li class=" pvid-40578 cid-524">
-                                <a href="http://www.bibliotecaspublicas.cl/sitio/Secciones/Servicios/Bibliomoviles/">Bibliom�viles</a>
+                                <a href="http://www.bibliotecaspublicas.cl/sitio/Secciones/Servicios/Bibliomoviles/">Bibliomóviles</a>
                             </li>
                             <li class=" pvid-48087 cid-524">
-                                <a href="http://www.bibliotecaspublicas.cl/sitio/Secciones/Servicios/Biblioteca-Publica-Digital/">Biblioteca P�blica Digital</a>
+                                <a href="http://www.bibliotecaspublicas.cl/sitio/Secciones/Servicios/Biblioteca-Publica-Digital/">Biblioteca Pública Digital</a>
                             </li>
                             <li class=" pvid-40577 cid-524">
                                 <a href="http://www.bibliotecaspublicas.cl/sitio/Secciones/Servicios/Casero-del-libro/">Casero del libro</a>
                             </li>
                             <li class=" pvid-40579 cid-524">
-                                <a href="http://www.bibliotecaspublicas.cl/sitio/Secciones/Servicios/Rincon-docente/">Rinc�n docente</a>
+                                <a href="http://www.bibliotecaspublicas.cl/sitio/Secciones/Servicios/Rincon-docente/">Rincón docente</a>
                             </li>
                             <li class=" pvid-72804 cid-524">
-                                <a href="http://www.bibliotecaspublicas.cl/sitio/Secciones/Servicios/Rincon-de-la-Memoria/">Rinc�n de la Memoria</a>
+                                <a href="http://www.bibliotecaspublicas.cl/sitio/Secciones/Servicios/Rincon-de-la-Memoria/">Rincón de la Memoria</a>
                             </li>
                             <li class=" pvid-72805 cid-524">
-                                <a href="http://www.bibliotecaspublicas.cl/sitio/Secciones/Servicios/Rincon-Infantil/">Rinc�n Infantil</a>
+                                <a href="http://www.bibliotecaspublicas.cl/sitio/Secciones/Servicios/Rincon-Infantil/">Rincón Infantil</a>
                             </li>
                             <li class=" pvid-40582 cid-524">
                                 <a href="http://www.bibliotecaspublicas.cl/sitio/Secciones/Servicios/Un-Libro-para-sanarme/">Un Libro para sanarme</a>
@@ -209,16 +201,16 @@
                         </ul>
                     </li>
                     <li class=" pvid-40593 cid-524">
-                        <a href="http://www.bibliotecaspublicas.cl/sitio/Secciones/Catalogo/">Cat�logo</a>
+                        <a href="http://www.bibliotecaspublicas.cl/sitio/Secciones/Catalogo/">Catalogo</a>
                     </li>
                     <li class=" pvid-48086 cid-524">
-                        <a href="http://www.bibliotecaspublicas.cl/sitio/Secciones/Busca-tu-Biblioteca-Publica/">Busca tu Biblioteca P�blica</a>
+                        <a href="http://www.bibliotecaspublicas.cl/sitio/Secciones/Busca-tu-Biblioteca-Publica/">Busca tu Biblioteca Publica</a>
                     </li>
                     <li class=" pvid-37325 cid-510">
                         <a href="http://www.bibliotecaspublicas.cl/sitio/Contenido/Cartelera/">Cartelera</a>
                     </li>
                     <li class=" pvid-37353 cid-510">
-                        <a href="http://www.bibliotecaspublicas.cl/sitio/Contenido/Galerias/">Galer�as</a>
+                        <a href="http://www.bibliotecaspublicas.cl/sitio/Contenido/Galerias/">Galerías</a>
                     </li>
                     <li class=" pvid-37384 cid-510">
                         <a href="http://www.bibliotecaspublicas.cl/sitio/Contenido/Noticias/">Noticias</a>
@@ -242,7 +234,7 @@
                 <div class="navegacion" id="barra_navegacion_i__wd_pa_barraPosicion_conClasificando_1">
                     <p class="navegacion">
                         <a class="channellink" href="http://www.bibliotecaspublicas.cl/sitio/">Inicio</a> /
-                        <a class="pnamelink pnid-619 cid-524" href="http://www.bibliotecaspublicas.cl/sitio/Secciones/">Men� Secciones</a> /
+                        <a class="pnamelink pnid-619 cid-524" href="http://www.bibliotecaspublicas.cl/sitio/Secciones/">Menú Secciones</a> /
                         <a class="current portadilla w3:propertyvalue pvid-40565 cid-524" href="./">Recomendaciones</a>
                     </p>
                 </div>
@@ -276,7 +268,7 @@
                         </div>
                         <div id="i__wd_tr_mapaLatlong_1_29513_Contacto" class="invisible texto-contacto cid-524 aid-29513">
                             <h2>Contacto</h2>
-                            <p>Direcci�n: Herrera 360, Santiago, Chile</p>
+                            <p>Dirección: Herrera 360, Santiago, Chile</p>
                             <p>Tel: +56227262440</p>
                             <p>E-mail:
                                 <a href="mailto:oirs@dibam.cl">oirs@dibam.cl</a>
@@ -289,7 +281,7 @@
                         </div>
                         <span class="invisible institucion">
                             <span class="pv-branch pnid-561 cid-510">
-                                <span class=" pnid-561 pv-pid-0 pvid-37277 cid-510">Sistema Nacional de Bibliotecas P�blicas</span>
+                                <span class=" pnid-561 pv-pid-0 pvid-37277 cid-510">Sistema Nacional de Bibliotecas Públicas</span>
                             </span>
                         </span>
                         <div style="display:none"></div>
@@ -309,7 +301,7 @@
                             </li>
                             <li>
                                 <a href="/sitio/">
-                                    Sistema Nacional de Bibliotecas P�blicas</a>
+                                    Sistema Nacional de Bibliotecas Públicas</a>
                             </li>
                             <li>
                                 <a href="http://www.archivonacional.cl/sitio/">
@@ -321,7 +313,7 @@
                             </li>
                             <li>
                                 <a href="http://www.museosdibam.cl/628/w3-channel.html">
-                                    Subdirecci�n Nacional de Museos</a>
+                                    Subdirección Nacional de Museos</a>
                             </li>
                             <li>
                                 <a href="http://www.monumentos.cl">
@@ -329,11 +321,11 @@
                             </li>
                             <li>
                                 <a href="http://www.sngp.cl/693/w3-channel.html">
-                                    Subdirecci�n Nacional de Gesti�n Patrimonial</a>
+                                    Subdirección Nacional de Gestión Patrimonial</a>
                             </li>
                             <li>
                                 <a href="http://www.investigaciondibam.cl/694/w3-channel.html">
-                                    Subdirecci�n de Investigaci�n</a>
+                                    Subdirección de Investigación</a>
                             </li>
                         </ul>
                     </div>
@@ -348,13 +340,13 @@
                                 <ul id="banners-footer">
                                     <li>
                                         <a href="http://www.dibam.cl/614/w3-propertyvalue-40755.html">
-                                            <img src="img/articles-4457_imagen_footer_01.png" alt="Sistema Integral de Informaci�n y Atenci�n Ciudadana | SIAC DIBAM"
+                                            <img src="img/articles-4457_imagen_footer_01.png" alt="Sistema Integral de Información y Atención Ciudadana | SIAC DIBAM"
                                                 width="270" height="73">
                                         </a>
                                     </li>
                                     <li>
                                         <a href="http://www.dibam.cl/614/articles-86293_archivo_01.">
-                                            <img src="img/articles-4457_imagen_footer_04.png" alt="Cuenta P�blica Participativa" width="270" height="73">
+                                            <img src="img/articles-4457_imagen_footer_04.png" alt="Cuenta Pública Participativa" width="270" height="73">
                                         </a>
                                     </li>
                                     <li>
@@ -364,17 +356,17 @@
                                     </li>
                                     <li>
                                         <a href="http://www.dibam.cl/614/w3-propertyvalue-109731.html">
-                                            <img src="img/articles-4457_imagen_footer_09.png" alt="Convenios de Colaboraci�n" width="270" height="73">
+                                            <img src="img/articles-4457_imagen_footer_09.png" alt="Convenios de Colaboración" width="270" height="73">
                                         </a>
                                     </li>
                                     <li>
                                         <a href="http://transparenciaactiva.dibam.cl/Paginas/ACGI.aspx">
-                                            <img src="img/articles-4457_imagen_footer_11.png" alt="Compromisos de Gesti�n Institucional" width="270" height="73">
+                                            <img src="img/articles-4457_imagen_footer_11.png" alt="Compromisos de Gestion Institucional" width="270" height="73">
                                         </a>
                                     </li>
                                     <li>
                                         <a href="http://www.empleospublicos.cl/">
-                                            <img src="img/articles-4457_imagen_footer_12.png" alt="Empleos p�blicos" width="270" height="73">
+                                            <img src="img/articles-4457_imagen_footer_12.png" alt="Empleos publicos" width="270" height="73">
                                         </a>
                                     </li>
                                 </ul>
@@ -390,11 +382,11 @@
                 <div style="clear:both"></div>
                 <div class="sombra-footer"></div>
                 <div class="col6 colpa6">
-                    <span class="logo_gob">Ministerio de Educaci�n, Gobierno de Chile</span>
+                    <span class="logo_gob">Ministerio de Educación, Gobierno de Chile</span>
                     <div id="wd_tr_footer_contacto" class="footer_footer">
                         <div id="i__wd_tr_Footer_contacto_1_29513_Contacto" class="seccion cid-524 aid-29513">
                             <h2>Contacto</h2>
-                            <p>Direcci�n: Herrera 360, Santiago, Chile</p>
+                            <p>Dirección: Herrera 360, Santiago, Chile</p>
                             <p>Tel: +56227262440</p>
                             <p>E-mail:
                                 <a href="mailto:oirs@dibam.cl">oirs@dibam.cl</a>
@@ -408,8 +400,8 @@
                         <a href="http://transparenciaactiva.dibam.cl/Paginas/SeleccionarOrganismo.aspx" title="Gobierno Transparente">
                             <img alt="Gobierno Transparente" src="img/channels-514_banner_transparencia01.png">
                         </a>
-                        <a href="http://transparenciaactiva.dibam.cl/Paginas/SubMenuEnlaceSistemaElectronico.aspx" title="Solicitud de informaci�n Ley de Transparencia">
-                            <img alt="Solicitud de informaci�n Ley de Transparencia" src="img/channels-514_banner_transparencia02.png">
+                        <a href="http://transparenciaactiva.dibam.cl/Paginas/SubMenuEnlaceSistemaElectronico.aspx" title="Solicitud de informacion Ley de Transparencia">
+                            <img alt="Solicitud de informacion Ley de Transparencia" src="img/channels-514_banner_transparencia02.png">
                         </a>
                     </div>
                     <ul class="list-inline">
@@ -417,7 +409,7 @@
                             <a href="http://www.bibliotecaspublicas.cl/sitio/">Inicio</a>
                         </li>
                         <li>
-                            <a href="http://www.dibam.cl/614/w3-article-29742.html">T�rminos y Condiciones de Uso</a>
+                            <a href="http://www.dibam.cl/614/w3-article-29742.html">Terminos y Condiciones de Uso</a>
                         </li>
                         <li>
                             <a href="http://www.bibliotecaspublicas.cl/sitio/Mapa-del-sitio">Mapa de Sitio</a>
@@ -443,6 +435,24 @@
             </div>
         </div>
     </div>
+
+
+        
+    <script type="text/javascript" src="js/channels-524_js_main.js"></script>
+    <script type="text/javascript" src="js/channels-524_js_jquery_1_9_1.js"></script>
+    <script type="text/javascript" src="js/channels-524_js_jqueryui_1_10_3.js"></script>
+    <script type="text/javascript" src="js/channels-524_js_jquerymigration_1_2_1.js"></script>
+    <script type="text/javascript" src="js/boxes-7976_js_file.js"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyClV8QvrJtON__TUj5W7Q8mWCM6BKglZ4M"></script>
+   
+   <script type="text/javascript">
+            $(document).ready(function () {
+                ntg_Google_map_init();
+            });
+    </script>
+
+    <script type="text/javascript" src="js/boxes-12060_js_file.js"></script>
+    <script type="text/javascript" src="js/jquery.carouFredSel-5.6.2.js"></script>
 </body>
 
 </html>

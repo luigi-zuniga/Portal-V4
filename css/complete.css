@@ -341,8 +341,8 @@ body {
     font-family: 'Open Sans',Verdana,Geneva,sans-serif !important;
 }
 h6 {
-    font-size: 0.8em;
-    line-height: 170%;
+    font-size: 1.2em;
+    line-height:20px;
 }
 #header h1.logo {
     background: url("images/logo.png") no-repeat scroll left top rgba(0, 0, 0, 0);
@@ -383,12 +383,15 @@ h6 {
 .acceso_biblioteca_digital a:hover {
     color: #4D4D4D;
 }
+
+/*
 .btn_menu_movil {
     display: none;
 }
 .btn_buscar_movil {
     display: none;
-}
+}*/
+
 /*.btn_menu_movil {
     display: none;
     font-size: 0;
@@ -3677,7 +3680,7 @@ ul.menudesp2 li {
     border-width: 1px;
     color: #444444;
     font-family: 'Open Sans',Verdana,Geneva,sans-serif;
-    font-size: 1.1em!important;
+    font-size: 1.3em!important;
     margin: 0;
     padding: 0;
     position: relative;
@@ -4625,6 +4628,8 @@ recuadro.rigth {
 	display:inline-flex;
 	height:20px;
 }
+
+/*
 #idFacebook, #idYoutube, #idTwitter, #idBlog, #ctl00_header_header1_Faqs, #ctl00_header_header1_Mapa, .btn {
     border: medium none;
     cursor: pointer;
@@ -4633,6 +4638,7 @@ recuadro.rigth {
     text-indent: -9999px;
     width: 25px;
 }
+*/
 #idFacebook:hover, #idYoutube:hover, #idTwitter:hover, #idBlog:hover, #ctl00_header_header1_Faqs:hover, #ctl00_header_header1_Mapa:hover, .btn:hover {
     background: url("images/cut_icon.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
 }
@@ -5335,9 +5341,7 @@ div.sombra-footer {
  
 	font-size:100%;
 }
-#contEnriquecido a:link {
-    color: #0033FF;
-}
+
 
 .caption {
     float: right;
@@ -5494,7 +5498,7 @@ div.sombra-footer {
 	}
 
 	.line.listaitemizada li {
-		font-size: 87%;
+		font-size: 9px;
 	}
 	#tabs .clear {
 		clear: both !important;
@@ -6730,21 +6734,6 @@ h6 {
 strong, b {
 }
 
-a:link {
-color: #FFF;
-}
-
-a:visited {
-color: #FFF;
-}
-
-a:hover {
-color: #FFF;
-}
-
-a:active {
-color: #FFF;
-}
 
 a:focus {
     border: none;
@@ -7118,10 +7107,6 @@ padding: 0;
 }
 
 
-.btn_menu_movil a.abierto {
-	
-}
-
 
 .listaitemizada span.pv-branch a {
 
@@ -7459,13 +7444,13 @@ ul.menudesp2 li ul > li {
 
 border-top: solid #e4701e 1px;/*Pintarlo también*/
 
-border-bottom: solid ##BF311A 1px;
+border-bottom: solid #BF311A 1px;
 
 border-left: none;
 
 border-right: none;
 
-background-color: ##BF311A;
+background-color: #BF311A;
 
 z-index:200;
 
@@ -7580,10 +7565,7 @@ font-size:1em;
 	
     /******************PERSONALIZACIÓN REDES SOCIALES*********************/
  /*Imagen Sprite para redes sociales*/
-#idFacebook, #idYoutube, #idTwitter, #idBlog, #ctl00_header_header1_Faqs, #ctl00_header_header1_Mapa, .btn{
-	background: url("images/sprite-3.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
- 
-}
+
 /*Ubicación de imagen en el Sprite correspondiente*/
 #idFacebook{background-position: -1px -28px;}
 #idYoutube{background-position: -111px -28px ;}
@@ -9903,7 +9885,7 @@ div#tr_enlaces_web_redes div#NTGbtn_rss a:before{font-family: FontAwesome; conte
 
 .tr_buscador .btn{ margin-top:-5px;}
 #cuadro_busqueda.btn{ text-indent:0}
-#cuadro_busqueda.btn { background:none; color:#999; font-size:1.2em;padding-top:4px;}
+#cuadro_busqueda.btn { background:none; color:#999; font-size:1.2em;padding-top:1px;border:none;}
 #cuadro_busqueda.btn:hover { color:#666;}
 
 #lista_galeria .cuadros, #lista_galerias_institucionales .cuadros{ display: table; padding-top:10px;}

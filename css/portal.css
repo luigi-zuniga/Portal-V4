@@ -1,8 +1,6 @@
 /*
   Portal de recomendaciones CSS.
 */
-
-  
   .text-muted {
     color: #777777;
   }
@@ -14,6 +12,7 @@
     font-size: 14px;
     line-height: 1.75;
   }*/
+  
   p.large {
     font-size: 16px;
   }
@@ -25,7 +24,7 @@
     outline: none;
   }
   a {
-    color: #f70606;
+    color:#E2712D;
   }
   a:hover,
   a:focus,
@@ -35,7 +34,7 @@
   }
   
   
-  h3,
+ 
   h5{
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
@@ -59,6 +58,15 @@
     color:#E2712D;
   }
   
+  h3
+  {
+    font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform:uppercase;
+    font-weight: lighter;
+    font-size: 22px;
+    color:#666;
+    }
+
   h4
   {
     font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -78,11 +86,16 @@
   }
   
   a.link-normal{
-    font-family: "Open Sans",sans-serif;
-    font-size: 18px;
+    font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
     color:#4A4A4A;
     text-decoration: underline;
     padding-left: 5px;
+  }
+
+  a.link-normal:hover
+  {
+    color:#E2712D;
   }
   
   .footer-description i .fa-book
@@ -111,7 +124,7 @@
     border-color: #E2712D;
     font-family: "Open Sans", sans-serif;
     font-weight: 300;
-    padding:7px 20px;
+    /*padding:7px 20px;*/
   }
   .btn-primary:hover,
   .btn-primary:focus,
@@ -197,6 +210,17 @@
     color: #fed136;
     background-color: white;
   }
+
+  .btn-lg, .btn-group-lg > .btn {
+    padding: 4px 36px;
+    font-size: 12px;
+    line-height: 2.333333;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
   .navbar-custom {
     background-color: #222222;
     border-color: transparent;
@@ -445,7 +469,7 @@
   
   @media (min-width: 768px) {
     section {
-      padding: 60px 0;
+      padding:0;
     }
   }
   .service-heading {
@@ -501,9 +525,10 @@
     font-family: "Open Sans",sans-serif;
     font-size: 16px;
     padding-left: 10px;
-    text-decoration: underline;
+    text-decoration: none;
   }
   
+/*
   #ejemplar .ejemplar-item .ejemplar-link .portafolio-categoria
   {
     font-size: 12px;
@@ -520,7 +545,7 @@
     margin-left: 10px;
     position: absolute;
     z-index: 1;
-  }
+  }*/
   
   
   #recomendaciones-panel .recomendaciones-item .recomendaciones-link
@@ -538,7 +563,7 @@
     font-family: "Open Sans";
     font-size:16px;
     padding-left:10px;
-    text-decoration: underline;
+    text-decoration: none;
   }
   
   #recomendaciones-panel 
@@ -581,8 +606,6 @@
     z-index: 2;
   }
   
-  
-  
   .box-recomendaciones
   {
     padding-top:0px;
@@ -611,7 +634,7 @@
   
   #ejemplar .ejemplar-item .ejemplar-caption {
     max-width: 400px;
-    background-color:#EDEDED;
+    /*background-color:#EDEDED;*/
     text-align: left;
   }
   
@@ -744,18 +767,17 @@
   
   /*Label Modificaciones*/
   .label-default {
-    background-color: #FFFFFF;
-    color: #E2712D;
-    font-family: "Open Sans", sans-serif;
+    background-color: #E2712D;
+    color: #FFFFFF;
+    font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 15px;
-    font-weight: bolder;
-    border: 1px solid #E2712D;
+    font-weight: lighter;
     padding: 5px 15px;
   }
   
   .panel
   {
-    border:1px solid #DD956A;
+    border:1px solid #e5e5e5;
   }
   
   .footer-description {
@@ -772,7 +794,7 @@
 
   .panel-body
   {
-    background:#FFF;
+    background:#F7F3F2;
   }
 
   .panel-body h4

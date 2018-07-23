@@ -15,7 +15,12 @@
                         </div>
                     </div>
                 </div>
-                <div id="images_header"></div>
+
+                <!-- Imagenes Header slider jquery-->    
+                <div id="images_header">
+
+                </div>
+                
                 <div id="contenedor_enlace" class="contenedor_buscador_enlaces">
                     <div id="tr_enlaces_web_redes" class="coleccion-redes-sociales">
                         <div id="NTGbtn_english" class="blank">

@@ -1,9 +1,9 @@
         <!-- =============================================== -->
         <!-- FOOTER -->
         <!-- =============================================== -->
-        <div id="footer">
+        <div id="footer" class="row">
             <div class="pie">
-                <div class="col5 colpa6">
+                <div class="col-lg-5 col-xs-12">
                     <div id="ubicacion_canal" class="recuadros">
                         <div class="titulo invisible aid-29513 cid-524">
                             <a href="http://www.dibam.cl/614/kmz-article-29513.kmz">Sistema Nacional de bibliotecas Publicas</a>
@@ -30,7 +30,7 @@
                     </div>
                     <div id="mapa" style="height:240px"></div>
                 </div>
-                <div class="col3">
+                <div class="col-lg-3">
                     <div class="line listaitemizada">
                         <ul class="list-unstyled">
                             <li>
@@ -72,7 +72,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col4">
+                <div class="col-lg-4">
                     <div class="banners">
                         <div class="content-footer">
                             <div class="list_carousel">
@@ -123,7 +123,7 @@
                 <div class="clear"></div>
                 <div style="clear:both"></div>
                 <div class="sombra-footer"></div>
-                <div class="col6 colpa6">
+                <div class="col-lg-6 col-xs-12">
                     <span class="logo_gob">Ministerio de Educación, Gobierno de Chile</span>
                     <div id="wd_tr_footer_contacto" class="footer_footer">
                         <div id="i__wd_tr_Footer_contacto_1_29513_Contacto" class="seccion cid-524 aid-29513">
@@ -137,7 +137,7 @@
                         <div style="display:none"></div>
                     </div>
                 </div>
-                <div class="col6 menu-final">
+                <div class="col-lg-6 col-xs-12 menu-final">
                     <div id="logos_transparencia" class="margen-abajo-sm">
                         <a href="http://transparenciaactiva.dibam.cl/Paginas/SeleccionarOrganismo.aspx" title="Gobierno Transparente">
                             <img alt="Gobierno Transparente" src="img/channels-514_banner_transparencia01.png">
@@ -172,7 +172,7 @@
                     <a href="img/articles-29513_header_7.jpg" title="Ir a ">imagen</a>
                     <a href="img/articles-29513_header_8.jpg" title="Ir a ">imagen</a>
                     <a href="img/articles-29513_header_9.jpg" title="Ir a ">imagen</a>
-                    <div style="display:none"></div>
+
                 </div>
             </div>
         </div>

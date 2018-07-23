@@ -1,4 +1,4 @@
-/* Agrega código JS aquí */
+/* Agrega cï¿½digo JS aquï¿½ */
 
 $(document).ready(function(){
   var imgs = $("#fuentes_imagenes a");

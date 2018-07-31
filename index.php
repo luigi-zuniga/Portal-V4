@@ -36,8 +36,20 @@
             include("shared/nav.php");
         ?>
 
+
         <div id="container">
             <div class="col-lg-9">
+            
+            <!-- =============================================== -->
+            <!-- BREADCRUMB -->
+             <!-- =============================================== -->
+             <div class="">
+                <p class="navegacion">
+                    <a class="" href="http://www.bibliotecaspublicas.cl/sitio/">Inicio</a> /
+                    <a class="" href="http://www.bibliotecaspublicas.cl/sitio/Secciones/">Menú Secciones</a> /  
+                    <a class="" href="./">Recomendaciones</a>
+                 </p>
+            </div>
 
             <!-- Section Ultimos libros comite -->
                 <section id="ejemplar">  
@@ -171,12 +183,11 @@
                                     </div>
                                 </div>
 
-                                <div class="col-lg-12 text-center">
-                                 
-                                    <button type="button" class="btn btn-lg btn-default">Ver más</button>
-                                 
-                                </div>
                         </div>
+                        
+                        <div class="col-lg-12 text-center">
+                             <button type="button" class="btn btn-lg btn-default">Ver más</button>
+                         </div>
                 </section>
 
 
@@ -312,17 +323,15 @@
                                         <h6>Título del libro en no más de uno o dos reglones, si no cabe se…</h6>
                                 </div>
                             </div>
-
-                            <div class="col-lg-12 text-center">
-                            
-                                <button type="button" class="btn btn-lg btn-default">Ver más</button>
-                            
-                            </div>
                     </div>
+                    <div class="col-lg-12 text-center">
+                            
+                            <button type="button" class="btn btn-lg btn-default">Ver más</button>
+                        
+                        </div>
             </section>
                 
                 
-                   
             <section id="comites">
                 <h3>Recomendaciones del Último Comité <a href="#" class="link-normal">ver todas las recomendaciones</a></h3>
                     <!-- inicio fila ** recomendaciones-->
@@ -389,11 +398,9 @@
                </section>
 
              </div><!--contenedor de 9 columnas-->
-         </div><!--Contendor principal-->
+         </div>
 
-        
 
-        
 
         <!--************  Footer   ***********-->
         <?php
@@ -464,8 +471,6 @@
         </div>
     </div>
 
-
-
     <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
 
     <script type="text/javasript"  src="bower_components/components-bootstrap/js/bootstrap.min.js"></script>
@@ -481,7 +486,8 @@
     <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyClV8QvrJtON__TUj5W7Q8mWCM6BKglZ4M"></script>
    
    <script type="text/javascript">
-            $(document).ready(function () {
+            $(document).ready(function () 
+            {
                 ntg_Google_map_init();
             });
     </script>

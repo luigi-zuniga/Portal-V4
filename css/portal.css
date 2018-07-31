@@ -640,12 +640,14 @@
   
   #ejemplar .ejemplar-item .ejemplar-caption h4 {
     text-transform: none;
+    text-align: center;
     margin: 0;
   }
-  
-  #ejemplar .ejemplar-item .ejemplar-caption small {
+
+  #ejemplar .ejemplar-item .ejemplar-caption > small {
+
     font-size: 11px;
-    margin: 0;
+    line-height: 10%;
   }
   
   #ejemplar * {
@@ -838,5 +840,6 @@
   #comites
   {
     margin-top:75px;
+    margin-bottom: 50px;
   }
   

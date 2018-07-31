@@ -27,11 +27,7 @@
                             <div style="display:none"></div>
                         </div>
                         <div id="NTGbtn_spanish">
-                         <input class="text" id="text" name="keywords" size="20" title="Ingrese criterio de búsqueda" type="text">
-                         <button class="btn btn-primary" name="boton_buscador" id="cuadro_busqueda" onclick="javascript:return doSearch();" title="Buscar en el sitio">
-                     	<span class="fa fa-search"></span><span class="sr-only">Buscar</span>  
-					</button>
-                            <div style="display:none"></div>
+                         <div style="display:none"></div>
                         </div>
                         <div id="NTGbtn_facebook" class="blank">
                             <a href="https://www.facebook.com/pages/Sistema-Nacional-de-Bibliotecas-P%C3%BAblicas/103920149702980"

@@ -36,331 +36,355 @@
             include("shared/nav.php");
         ?>
 
-
+       
         <div id="container">
             <div class="col-lg-9">
             
             <!-- =============================================== -->
             <!-- BREADCRUMB -->
              <!-- =============================================== -->
-             <div class="">
-                <p class="navegacion">
-                    <a class="" href="http://www.bibliotecaspublicas.cl/sitio/">Inicio</a> /
-                    <a class="" href="http://www.bibliotecaspublicas.cl/sitio/Secciones/">Menú Secciones</a> /  
-                    <a class="" href="./">Recomendaciones</a>
-                 </p>
-            </div>
 
-            <!-- Section Ultimos libros comite -->
-                <section id="ejemplar">  
+            <ol class="breadcrumb">
+                <li><a href="http://www.bibliotecaspublicas.cl/sitio/">Inicio</a></li>
+                <li><a href="http://www.bibliotecaspublicas.cl/sitio/Secciones/">Menú Secciones</a></li>
+                <li class="active"><a href="./">Recomendaciones</a></li>
+            </ol>
 
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <h3>Recomendaciones del Ùltimo Comité
-                                    <a href="/PRL-V3/views/ejemplares/ejemplares.php" class="link-normal">Ver todos los libros</a>
-                                </h3>
+            <main>
+                <article>
+                    <!-- Section Ultimos libros comite -->
+                    <section id="ejemplar">  
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h3>Recomendaciones del Último Comité
+                                        <a href="/PRL-V3/views/ejemplares/ejemplares.php" class="link-normal">Ver todo</a>
+                                    </h3>
+                                    <p class="hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur explicabo laborum aperiam quod tempora necessitatibus ab nesciunt, velit et facilis at illo a corporis vitae voluptates? Nulla atque suscipit necessitatibus.</p>
+
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="row">
-                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
-                                    <a href="#ejemplarModal1" class="ejemplar-link" data-toggle="modal">
-                                        <div class="ejemplar-hover">
-                                            <div class="ejemplar-hover-content">
-                                                <i class="fa fa-eye fa-1x"><span>Ver<span></i>
-                                            </div>
-                                        </div>
-                                        <img src="img/book-portada.jpg" class="img-responsive" alt="">                            
-                                        </a>
-                                    <div class="ejemplar-caption">
-                                        <small><strong>De:</strong > Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
-                                        <h6>Título del libro en no más de uno o dos reglones, si no cabe se…</h6>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
+                            <div class="row">
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
+                                        <h6>Título del libro en no más de uno o dos reglones</h6>
                                         <a href="#ejemplarModal1" class="ejemplar-link" data-toggle="modal">
                                             <div class="ejemplar-hover">
                                                 <div class="ejemplar-hover-content">
                                                     <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <img src="img/book-portada.jpg" class="img-responsive" alt="">
+                                            <img src="img/book-portada.jpg" class="img-responsive" alt="">                            
                                         </a>
-                                    <div class="ejemplar-caption">
-                                            <small><strong>De:</strong > Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
-                                            <h6>Título del libro en no más de uno o dos reglones, si no cabe se…</h6>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
-                                        <a href="#ejemplarModal1" class="ejemplar-link" data-toggle="modal">
-                                            <div class="ejemplar-hover">
-                                                <div class="ejemplar-hover-content">
-                                                    <i class="fa fa-eye fa-1x"><span>Ver<span></i>
-                                            </div>
+                                        <div class="ejemplar-caption">
+                                        <small>Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
                                         </div>
-                                        <img src="img/book-portada.jpg" class="img-responsive" alt="">
-                                        </a>
-                                    <div class="ejemplar-caption">
-                                            <small><strong>De:</strong > Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
-                                            <h6>Título del libro en no más de uno o dos reglones, si no cabe se…</h6>
                                     </div>
-                                </div>
 
-                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
-                                        <a href="#ejemplarModal1" class="ejemplar-link" data-toggle="modal">
-                                            <div class="ejemplar-hover">
-                                                <div class="ejemplar-hover-content">
-                                                    <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
+                                            <h6>Título del libro en no más de uno o dos reglones</h6>
+                                            <a href="#ejemplarModal1" class="ejemplar-link" data-toggle="modal">
+                                                <div class="ejemplar-hover">
+                                                    <div class="ejemplar-hover-content">
+                                                        <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                                                </div>
                                             </div>
+                                            <img src="img/book-portada.jpg" class="img-responsive" alt="">
+                                            </a>
+                                        <div class="ejemplar-caption">
+                                                <small> Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
                                         </div>
-                                        <img src="img/book-portada.jpg" class="img-responsive" alt="">
-                                        </a>
-                                    <div class="ejemplar-caption">
-                                            <small><strong>De:</strong > Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
-                                            <h6>Título del libro en no más de uno o dos reglones, si no cabe se…</h6>
                                     </div>
-                                </div>
 
-                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
-                                        <a href="#ejemplarModal1" class="ejemplar-link" data-toggle="modal">
-                                            <div class="ejemplar-hover">
-                                                <div class="ejemplar-hover-content">
-                                                    <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
+                                            <h6>Título del libro en no más de uno o dos reglones</h6>
+                                            <a href="#ejemplarModal1" class="ejemplar-link" data-toggle="modal">
+                                                <div class="ejemplar-hover">
+                                                    <div class="ejemplar-hover-content">
+                                                        <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                                                </div>
                                             </div>
+                                            <img src="img/book-portada.jpg" class="img-responsive" alt="">
+                                            </a>
+                                        <div class="ejemplar-caption">
+                                                <small> Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
                                         </div>
-                                        <img src="img/book-portada.jpg" class="img-responsive" alt="">
-                                        </a>
-                                    <div class="ejemplar-caption">
-                                            <small><strong>De:</strong > Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
-                                            <h6>Título del libro en no más de uno o dos reglones, si no cabe se…</h6>
                                     </div>
-                                </div>
-                                
-                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
-                                        <a href="#ejemplarModal1" class="ejemplar-link" data-toggle="modal">
-                                            <div class="ejemplar-hover">
-                                                <div class="ejemplar-hover-content">
-                                                    <i class="fa fa-eye fa-1x"><span>Ver<span></i>
-                                            </div>
-                                        </div>
-                                        <img src="img/book-portada.jpg" class="img-responsive" alt="">
-                                                        </a>
-                                    <div class="ejemplar-caption">
-                                            <small><strong>De:</strong > Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
-                                            <h6>Título del libro en no más de uno o dos reglones, si no cabe se…</h6>
-                                    </div>
-                                </div>
 
-                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
-                                        <a href="#ejemplarModal1" class="ejemplar-link" data-toggle="modal">
-                                            <div class="ejemplar-hover">
-                                                <div class="ejemplar-hover-content">
-                                                    <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
+                                            <h6>Título del libro en no más de uno o dos reglones</h6>
+                                            <a href="#ejemplarModal1" class="ejemplar-link" data-toggle="modal">
+                                                <div class="ejemplar-hover">
+                                                    <div class="ejemplar-hover-content">
+                                                        <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                                                </div>
                                             </div>
+                                            <img src="img/book-portada.jpg" class="img-responsive" alt="">
+                                            </a>
+                                        <div class="ejemplar-caption">
+                                                <small> Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
                                         </div>
-                                        <img src="img/book-portada.jpg" class="img-responsive" alt="">
-                                        </a>
-                                    <div class="ejemplar-caption">
-                                            <small><strong>De:</strong > Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
-                                            <h6>Título del libro en no más de uno o dos reglones, si no cabe se…</h6>
                                     </div>
-                                </div>
-                                
-                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
-                                        <a href="#ejemplarModal1" class="ejemplar-link" data-toggle="modal">
-                                            <div class="ejemplar-hover">
-                                                <div class="ejemplar-hover-content">
-                                                    <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
+                                            <h6>Título del libro en no más de uno o dos reglones</h6>
+                                            <a href="#ejemplarModal1" class="ejemplar-link" data-toggle="modal">
+                                                <div class="ejemplar-hover">
+                                                    <div class="ejemplar-hover-content">
+                                                        <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                                                </div>
                                             </div>
+                                            <img src="img/book-portada.jpg" class="img-responsive" alt="">
+                                            </a>
+                                        <div class="ejemplar-caption">
+                                                <small> Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
                                         </div>
-                                        <img src="img/book-portada.jpg" class="img-responsive" alt="">
-                                        </a>
-                                    <div class="ejemplar-caption">
-                                            <small><strong>De:</strong > Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
-                                            <h6>Título del libro en no más de uno o dos reglones, si no cabe se…</h6>
                                     </div>
-                                </div>
+                                    
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
+                                            <h6>Título del libro en no más de uno o dos reglones</h6>
+                                            <a href="#ejemplarModal1" class="ejemplar-link" data-toggle="modal">
+                                                <div class="ejemplar-hover">
+                                                    <div class="ejemplar-hover-content">
+                                                        <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                                                </div>
+                                            </div>
+                                            <img src="img/book-portada.jpg" class="img-responsive" alt="">
+                                            </a>
+                                        <div class="ejemplar-caption">
+                                                <small> Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
+                                        </div>
+                                    </div>
 
-                        </div>
-                        
-                        <div class="col-lg-12 text-center">
-                             <button type="button" class="btn btn-lg btn-default">Ver más</button>
-                         </div>
-                </section>
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
+                                            <h6>Título del libro en no más de uno o dos reglones</h6>
+                                            <a href="#ejemplarModal1" class="ejemplar-link" data-toggle="modal">
+                                                <div class="ejemplar-hover">
+                                                    <div class="ejemplar-hover-content">
+                                                        <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                                                </div>
+                                            </div>
+                                            <img src="img/book-portada.jpg" class="img-responsive" alt="">
+                                            </a>
+                                        <div class="ejemplar-caption">
+                                                <small> Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
+                                            <h6>Título del libro en no más de uno o dos reglones</h6>
+                                            <a href="#ejemplarModal1" class="ejemplar-link" data-toggle="modal">
+                                                <div class="ejemplar-hover">
+                                                    <div class="ejemplar-hover-content">
+                                                        <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                                                </div>
+                                            </div>
+                                            <img src="img/book-portada.jpg" class="img-responsive" alt="">
+                                            </a>
+                                        <div class="ejemplar-caption">
+                                                <small> Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
+                                        </div>
+                                    </div>
 
+                            </div>
+                            
+                            <div class="col-lg-12 text-center">
+                                <button type="button" class="btn btn-lg btn-default">Ver más</button>
+                            </div>
+                    </section>
+                </article>
 
 
             <!-- Section Libros Recomendados -->
             <section id="ejemplar">  
-
                     <div class="row">
                         <div class="col-lg-12">
                             <h3>Libros Recomendados
-                                <a href="/PRL-V3/views/ejemplares/ejemplares.php" class="link-normal">Ver todos los libros</a>
+                                <a href="/PRL-V3/views/ejemplares/ejemplares.php" class="link-normal">Ver todo</a>
                             </h3>
+                            <p class="hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur explicabo laborum aperiam quod tempora necessitatibus ab nesciunt, velit et facilis at illo a corporis vitae voluptates? Nulla atque suscipit necessitatibus.</p>
                         </div>
                     </div>
 
                     <div class="row">
-                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
-                                <a href="#ejemplarModal1" class="ejemplar-link" data-toggle="modal">
-                                    <div class="ejemplar-hover">
-                                        <div class="ejemplar-hover-content">
-                                            <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
+                                            <h6>Título del libro en no más de uno o dos reglones</h6>
+                                            <a href="#ejemplarModal1" class="ejemplar-link" data-toggle="modal">
+                                                <div class="ejemplar-hover">
+                                                    <div class="ejemplar-hover-content">
+                                                        <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                                                </div>
+                                            </div>
+                                            <img src="img/book-portada.jpg" class="img-responsive" alt="">
+                                            </a>
+                                        <div class="ejemplar-caption">
+                                                <small> Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
                                         </div>
                                     </div>
-                                    <img src="img/book-portada.jpg" class="img-responsive" alt="">                            
-                                    </a>
-                                <div class="ejemplar-caption">
-                                    <small><strong>De:</strong > Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
-                                    <h6>Título del libro en no más de uno o dos reglones, si no cabe se…</h6>
-                                </div>
-                            </div>
 
-                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
-                                    <a href="#ejemplarModal1" class="ejemplar-link" data-toggle="modal">
-                                        <div class="ejemplar-hover">
-                                            <div class="ejemplar-hover-content">
-                                                <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
+                                            <h6>Título del libro en no más de uno o dos reglones</h6>
+                                            <a href="#ejemplarModal1" class="ejemplar-link" data-toggle="modal">
+                                                <div class="ejemplar-hover">
+                                                    <div class="ejemplar-hover-content">
+                                                        <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                                                </div>
+                                            </div>
+                                            <img src="img/book-portada.jpg" class="img-responsive" alt="">
+                                            </a>
+                                        <div class="ejemplar-caption">
+                                                <small> Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
                                         </div>
                                     </div>
-                                    <img src="img/book-portada.jpg" class="img-responsive" alt="">
-                                    </a>
-                                <div class="ejemplar-caption">
-                                        <small><strong>De:</strong > Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
-                                        <h6>Título del libro en no más de uno o dos reglones, si no cabe se…</h6>
-                                </div>
-                            </div>
 
-                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
-                                    <a href="#ejemplarModal1" class="ejemplar-link" data-toggle="modal">
-                                        <div class="ejemplar-hover">
-                                            <div class="ejemplar-hover-content">
-                                                <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
+                                            <h6>Título del libro en no más de uno o dos reglones</h6>
+                                            <a href="#ejemplarModal1" class="ejemplar-link" data-toggle="modal">
+                                                <div class="ejemplar-hover">
+                                                    <div class="ejemplar-hover-content">
+                                                        <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                                                </div>
+                                            </div>
+                                            <img src="img/book-portada.jpg" class="img-responsive" alt="">
+                                            </a>
+                                        <div class="ejemplar-caption">
+                                                <small> Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
                                         </div>
                                     </div>
-                                    <img src="img/book-portada.jpg" class="img-responsive" alt="">
-                                    </a>
-                                <div class="ejemplar-caption">
-                                        <small><strong>De:</strong > Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
-                                        <h6>Título del libro en no más de uno o dos reglones, si no cabe se…</h6>
-                                </div>
-                            </div>
 
-                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
-                                    <a href="#ejemplarModal1" class="ejemplar-link" data-toggle="modal">
-                                        <div class="ejemplar-hover">
-                                            <div class="ejemplar-hover-content">
-                                                <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
+                                            <h6>Título del libro en no más de uno o dos reglones</h6>
+                                            <a href="#ejemplarModal1" class="ejemplar-link" data-toggle="modal">
+                                                <div class="ejemplar-hover">
+                                                    <div class="ejemplar-hover-content">
+                                                        <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                                                </div>
+                                            </div>
+                                            <img src="img/book-portada.jpg" class="img-responsive" alt="">
+                                            </a>
+                                        <div class="ejemplar-caption">
+                                                <small> Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
                                         </div>
                                     </div>
-                                    <img src="img/book-portada.jpg" class="img-responsive" alt="">
-                                    </a>
-                                <div class="ejemplar-caption">
-                                        <small><strong>De:</strong > Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
-                                        <h6>Título del libro en no más de uno o dos reglones, si no cabe se…</h6>
-                                </div>
-                            </div>
 
-                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
-                                    <a href="#ejemplarModal1" class="ejemplar-link" data-toggle="modal">
-                                        <div class="ejemplar-hover">
-                                            <div class="ejemplar-hover-content">
-                                                <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
+                                            <h6>Título del libro en no más de uno o dos reglones</h6>
+                                            <a href="#ejemplarModal1" class="ejemplar-link" data-toggle="modal">
+                                                <div class="ejemplar-hover">
+                                                    <div class="ejemplar-hover-content">
+                                                        <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                                                </div>
+                                            </div>
+                                            <img src="img/book-portada.jpg" class="img-responsive" alt="">
+                                            </a>
+                                        <div class="ejemplar-caption">
+                                                <small> Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
                                         </div>
                                     </div>
-                                    <img src="img/book-portada.jpg" class="img-responsive" alt="">
-                                    </a>
-                                <div class="ejemplar-caption">
-                                        <small><strong>De:</strong > Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
-                                        <h6>Título del libro en no más de uno o dos reglones, si no cabe se…</h6>
-                                </div>
-                            </div>
                             
-                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
-                                    <a href="#ejemplarModal1" class="ejemplar-link" data-toggle="modal">
-                                        <div class="ejemplar-hover">
-                                            <div class="ejemplar-hover-content">
-                                                <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
+                                            <h6>Título del libro en no más de uno o dos reglones</h6>
+                                            <a href="#ejemplarModal1" class="ejemplar-link" data-toggle="modal">
+                                                <div class="ejemplar-hover">
+                                                    <div class="ejemplar-hover-content">
+                                                        <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                                                </div>
+                                            </div>
+                                            <img src="img/book-portada.jpg" class="img-responsive" alt="">
+                                            </a>
+                                        <div class="ejemplar-caption">
+                                                <small> Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
                                         </div>
                                     </div>
-                                    <img src="img/book-portada.jpg" class="img-responsive" alt="">
-                                                    </a>
-                                <div class="ejemplar-caption">
-                                        <small><strong>De:</strong > Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
-                                        <h6>Título del libro en no más de uno o dos reglones, si no cabe se…</h6>
-                                </div>
-                            </div>
 
-                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
-                                    <a href="#ejemplarModal1" class="ejemplar-link" data-toggle="modal">
-                                        <div class="ejemplar-hover">
-                                            <div class="ejemplar-hover-content">
-                                                <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
+                                            <h6>Título del libro en no más de uno o dos reglones</h6>
+                                            <a href="#ejemplarModal1" class="ejemplar-link" data-toggle="modal">
+                                                <div class="ejemplar-hover">
+                                                    <div class="ejemplar-hover-content">
+                                                        <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                                                </div>
+                                            </div>
+                                            <img src="img/book-portada.jpg" class="img-responsive" alt="">
+                                            </a>
+                                        <div class="ejemplar-caption">
+                                                <small> Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
                                         </div>
                                     </div>
-                                    <img src="img/book-portada.jpg" class="img-responsive" alt="">
-                                    </a>
-                                <div class="ejemplar-caption">
-                                        <small><strong>De:</strong > Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
-                                        <h6>Título del libro en no más de uno o dos reglones, si no cabe se…</h6>
-                                </div>
-                            </div>
-                            
-                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
-                                    <a href="#ejemplarModal1" class="ejemplar-link" data-toggle="modal">
-                                        <div class="ejemplar-hover">
-                                            <div class="ejemplar-hover-content">
-                                                <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                                
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
+                                            <h6>Título del libro en no más de uno o dos reglones</h6>
+                                            <a href="#ejemplarModal1" class="ejemplar-link" data-toggle="modal">
+                                                <div class="ejemplar-hover">
+                                                    <div class="ejemplar-hover-content">
+                                                        <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                                                </div>
+                                            </div>
+                                            <img src="img/book-portada.jpg" class="img-responsive" alt="">
+                                            </a>
+                                        <div class="ejemplar-caption">
+                                                <small> Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
                                         </div>
                                     </div>
-                                    <img src="img/book-portada.jpg" class="img-responsive" alt="">
-                                    </a>
-                                <div class="ejemplar-caption">
-                                        <small><strong>De:</strong > Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
-                                        <h6>Título del libro en no más de uno o dos reglones, si no cabe se…</h6>
-                                </div>
-                            </div>
-                    </div>
-                    <div class="col-lg-12 text-center">
-                            
+
+                         <div class="col-lg-12 text-center">
                             <button type="button" class="btn btn-lg btn-default">Ver más</button>
-                        
                         </div>
-            </section>
+                </section>
                 
                 
             <section id="comites">
-                <h3>Recomendaciones del Último Comité <a href="#" class="link-normal">ver todas las recomendaciones</a></h3>
+
+                <h3>Otros Comité <a href="#" class="link-normal">ver todo</a></h3>
                     <!-- inicio fila ** recomendaciones-->
                     <div class="row"> 
                     <!--***************************************************************-->
                     <div id="recomendaciones-panel">        
                      <!--Recomendaciones Panel contenido-->                
-                         <div class="col-lg-12 recomendaciones-item">
-                             <a href="#comiteModal1" class="recomendaciones-link"  data-toggle="modal">
-                                 <div class="panel">
-                                    <div class="panel-body">
-                                        <div class="recomendaciones-hover">
-                                                <div class="recomendaciones-hover-content">
-                                                     <i class="fa fa-eye fa-1x"><span>Ver<span></i>
-                                                </div>
-                                         </div>
-                                         <h4>Título del set de recomendaciones de uno hasta tres </h4>
-                                        <small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</small>
-                                                           
-                                        <!--Contenido Footer del panel-->
-                                        <div class="footer-description">
-                                             <label class="label label-default">Año: 2015</label>
-                                             <small><strong>Comité:</strong> Nombre_del_comité_encargado</small>
-                                             <i class="fa fa-book fa-2x pull-right"></i>
+                            <div class="col-lg-6 recomendaciones-item">
+                                <a href="#comiteModal1" class="recomendaciones-link"  data-toggle="modal">
+                                    <div class="panel">
+                                        <div class="panel-body">
+                                            <div class="recomendaciones-hover">
+                                                    <div class="recomendaciones-hover-content">
+                                                        <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                                                    </div>
+                                            </div>
+                                            <h4>Título del Comité</h4>
+                                            <small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit</small>
+                                            <br/>  
+                                            <br/>              
+                                            <!--Contenido Footer del panel-->
+                                            <div class="footer-description">
+                                                <label class="label label-default">Año: 2015</label>
+                                                <i class="fa fa-users fa-2x pull-right"></i>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                             </a>
-                        </div>
+                                </a>
+                            </div>
+
+                            <div class="col-lg-6 recomendaciones-item">
+                                <a href="#comiteModal1" class="recomendaciones-link"  data-toggle="modal">
+                                    <div class="panel">
+                                        <div class="panel-body">
+                                            <div class="recomendaciones-hover">
+                                                    <div class="recomendaciones-hover-content">
+                                                        <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                                                    </div>
+                                            </div>
+                                            <h4>Título del Comité </h4>
+                                            <small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit</small>
+                                            <br/>  
+                                            <br/>              
+                                            <!--Contenido Footer del panel-->
+                                            <div class="footer-description">
+                                                <label class="label label-default">Año: 2015</label>
+                                                <i class="fa fa-users fa-2x pull-right"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
                     </div>
                      <!--***************************************************************-->
 
@@ -368,37 +392,66 @@
                     <!--***************************************************************-->
                     <div id="recomendaciones-panel">        
                      <!--Recomendaciones Panel contenido-->                
-                         <div class="col-lg-12 recomendaciones-item">
-                             <a href="#comiteModal1" class="recomendaciones-link"  data-toggle="modal">
-                                 <div class="panel">
-                                    <div class="panel-body">
-                                        <div class="recomendaciones-hover">
-                                                <div class="recomendaciones-hover-content">
-                                                     <i class="fa fa-eye fa-1x"><span>Ver<span></i>
-                                                </div>
-                                         </div>
-                                         <h4>Título del set de recomendaciones de uno hasta tres </h4>
-                                        <small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</small>
-                                                           
-                                        <!--Contenido Footer del panel-->
-                                        <div class="footer-description">
-                                             <label class="label label-default">Año: 2015</label>
-                                             <small><strong>Comité:</strong> Nombre_del_comité_encargado</small>
-                                             <i class="fa fa-book fa-2x pull-right"></i>
+                     <div class="col-lg-6 recomendaciones-item">
+                                <a href="#comiteModal1" class="recomendaciones-link"  data-toggle="modal">
+                                    <div class="panel">
+                                        <div class="panel-body">
+                                            <div class="recomendaciones-hover">
+                                                    <div class="recomendaciones-hover-content">
+                                                        <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                                                    </div>
+                                            </div>
+                                            <h4>Título del Comité </h4>
+                                            <small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit</small>
+                                            <br/>  
+                                            <br/>              
+                                            <!--Contenido Footer del panel-->
+                                            <div class="footer-description">
+                                                <label class="label label-default">Año: 2015</label>
+                                                <i class="fa fa-users fa-2x pull-right"></i>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                             </a>
-                        </div>
+                                </a>
+                            </div>
+
+                            <div class="col-lg-6 recomendaciones-item">
+                                <a href="#comiteModal1" class="recomendaciones-link"  data-toggle="modal">
+                                    <div class="panel">
+                                        <div class="panel-body">
+                                            <div class="recomendaciones-hover">
+                                                    <div class="recomendaciones-hover-content">
+                                                        <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                                                    </div>
+                                            </div>
+                                            <h4>Título del Comité </h4>
+                                            <small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit</small>
+                                            <br/>  
+                                            <br/>              
+                                            <!--Contenido Footer del panel-->
+                                            <div class="footer-description">
+                                                <label class="label label-default">Año: 2015</label>
+                                                <i class="fa fa-users fa-2x pull-right"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
                     </div>
                      <!--***************************************************************-->
-                            
+                     <div class="col-lg-12 text-center">
+                            <button type="button" class="btn btn-lg btn-default">Ver más</button>
+                        </div>
                      </div>
+                     
                     <!--fin de la fila -->
                </section>
 
              </div><!--contenedor de 9 columnas-->
-         </div>
+       
+
+        </main>
+      </div>
 
 
 
@@ -421,7 +474,7 @@
                 <div class="modal-body row">
                     <div class="col-lg-4 text-center">
                         <img class="img-responsive img-centered" src="img/book-portada.jpg" alt="" width="200px">
-                        <p class="item-intro text-muted"><strong>De:</strong> Nombre_del_autor uno_a__dos_reglones_m-aximo.</p>
+                        <p class="item-intro text-muted">Nombre_del_autor uno_a__dos_reglones_m-aximo.</p>
                     </div>
                            
                     <div class="col-lg-8">

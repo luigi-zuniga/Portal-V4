@@ -78,7 +78,7 @@
                         <a href="./">Recomendaciones</a>
                         <ul>
                             <li class=" pvid-40569 cid-524">
-                                <a href="./acerca-de">Acerca las recomendaciones</a>
+                                <a href="./acerca-de">Inicio</a>
                             </li>
                             <li class=" pvid-40566 cid-524">
                                 <a href="./recomendaciones">Recomendaciones</a>
@@ -88,6 +88,9 @@
                             </li>
                             <li class=" pvid-40568 cid-524">
                                 <a href="./contacto">Contacto</a>
+                            </li>
+                            <li class=" pvid-40569 cid-524">
+                                <a href="./acerca-de">Acerca de</a>
                             </li>
                         </ul>
                     </li>

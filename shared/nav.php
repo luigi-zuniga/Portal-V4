@@ -75,19 +75,19 @@
                         </ul>
                     </li>
                     <li class="current pvid-40593b cid-524b">
-                        <a href="./">Recomendaciones</a>
+                        <a href="/PRL/index.php">Recomendaciones</a>
                         <ul>
                             <li class=" pvid-40569 cid-524">
-                                <a href="./acerca-de">Inicio</a>
+                                <a href="/PRL/index.php">Inicio</a>
                             </li>
                             <li class=" pvid-40566 cid-524">
-                                <a href="./recomendaciones">Recomendaciones</a>
+                                <a href="/PRL/views/recomendaciones/recomendaciones.php">Recomendaciones</a>
                             </li>
                             <li class=" pvid-40568 cid-524">
-                                <a href="./comites">Comités</a>
+                                <a href="/PRL/views/comites/comites.php">Comités</a>
                             </li>
                             <li class=" pvid-40568 cid-524">
-                                <a href="./contacto">Contacto</a>
+                                <a href="/PRL/views/contacto.php">Contacto</a>
                             </li>
                             <li class=" pvid-40569 cid-524">
                                 <a href="./acerca-de">Acerca de</a>
@@ -113,7 +113,7 @@
                         <a href="http://www.bibliotecaspublicas.cl/sitio/Contenido/Publicaciones/">Publicaciones</a>
                     </li>
                 </ul>
-                <a id="boton_buscar_m" href="javascript:toggleBlock('tr_buscador','boton_buscar_m','abierto');" class="btn_buscar_movil">Buscar</a>
+               
             </div>
             <span class="clearfix"></span>
     </div>

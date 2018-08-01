@@ -30,7 +30,7 @@
                     </div>
                     <div id="mapa" style="height:240px"></div>
                 </div>
-                <div class="col-lg-3 col-sm-3 col-xs-6">
+                <div class="col-lg-3 col-sm-3 col-xs-12">
                     <div class="line listaitemizada">
                         <ul class="list-unstyled">
                             <li>
@@ -82,33 +82,33 @@
                                 <ul id="banners-footer">
                                     <li>
                                         <a href="http://www.dibam.cl/614/w3-propertyvalue-40755.html">
-                                            <img src="img/articles-4457_imagen_footer_01.png" alt="Sistema Integral de Información y Atención Ciudadana | SIAC DIBAM"
+                                            <img src="/PRL/resources/img/articles-4457_imagen_footer_01.png" alt="Sistema Integral de Información y Atención Ciudadana | SIAC DIBAM"
                                                 width="270" height="73">
                                         </a>
                                     </li>
                                     <li>
                                         <a href="http://www.dibam.cl/614/articles-86293_archivo_01.">
-                                            <img src="img/articles-4457_imagen_footer_04.png" alt="Cuenta Pública Participativa" width="270" height="73">
+                                            <img src="/PRL/resources/img/articles-4457_imagen_footer_04.png" alt="Cuenta Pública Participativa" title="Cuenta Pública Participativa" width="270" height="73">
                                         </a>
                                     </li>
                                     <li>
                                         <a href="http://www.mercadopublico.cl/Portal/FeedOrg.aspx?qs=6YL18o2afRApDMClFTeotg==">
-                                            <img src="img/articles-4457_imagen_footer_07.png" alt="Licitaciones" width="270" height="73">
+                                            <img src="/PRL/resources/img/articles-4457_imagen_footer_07.png" alt="Licitaciones" title="Licitaciones" width="270" height="73">
                                         </a>
                                     </li>
                                     <li>
                                         <a href="http://www.dibam.cl/614/w3-propertyvalue-109731.html">
-                                            <img src="img/articles-4457_imagen_footer_09.png" alt="Convenios de Colaboración" width="270" height="73">
+                                            <img src="/PRL/resources/img/articles-4457_imagen_footer_09.png" alt="Convenios de Colaboración" title="Convenios de Colaboración" width="270" height="73">
                                         </a>
                                     </li>
                                     <li>
                                         <a href="http://transparenciaactiva.dibam.cl/Paginas/ACGI.aspx">
-                                            <img src="img/articles-4457_imagen_footer_11.png" alt="Compromisos de Gestion Institucional" width="270" height="73">
+                                            <img src="/PRL/resources/img/articles-4457_imagen_footer_11.png" alt="Compromisos de Gestion Institucional" title="Compromisos de Gestion Institucional" width="270" height="73">
                                         </a>
                                     </li>
                                     <li>
                                         <a href="http://www.empleospublicos.cl/">
-                                            <img src="img/articles-4457_imagen_footer_12.png" alt="Empleos publicos" width="270" height="73">
+                                            <img src="/PRL/resources/img/articles-4457_imagen_footer_12.png" alt="Empleos publicos" title="Empleos publicos" width="270" height="73">
                                         </a>
                                     </li>
                                 </ul>
@@ -123,7 +123,7 @@
                 <div class="clear"></div>
                 <div style="clear:both"></div>
                 <div class="sombra-footer"></div>
-                <div class="col-lg-6 col-sm-6 col-xs-6">
+                <div class="col-lg-6 col-sm-6 col-xs-12">
                     <span class="logo_gob">Ministerio de Educación, Gobierno de Chile</span>
                     <div id="wd_tr_footer_contacto" class="footer_footer">
                         <div id="i__wd_tr_Footer_contacto_1_29513_Contacto" class="seccion cid-524 aid-29513">
@@ -134,18 +134,18 @@
                                 <a href="mailto:oirs@dibam.cl">oirs@dibam.cl</a>
                             </p>
                         </div>
-                        <div style="display:none"></div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-sm-6 col-xs-6 menu-final">
+                <div class="col-lg-6 col-sm-6 col-xs-12 text-center menu-final">
                     <div id="logos_transparencia" class="margen-abajo-sm">
                         <a href="http://transparenciaactiva.dibam.cl/Paginas/SeleccionarOrganismo.aspx" title="Gobierno Transparente">
-                            <img alt="Gobierno Transparente" src="img/channels-514_banner_transparencia01.png">
+                            <img alt="Gobierno Transparente" src="/PRL/resources/img/channels-514_banner_transparencia01.png">
                         </a>
                         <a href="http://transparenciaactiva.dibam.cl/Paginas/SubMenuEnlaceSistemaElectronico.aspx" title="Solicitud de informacion Ley de Transparencia">
-                            <img alt="Solicitud de informacion Ley de Transparencia" src="img/channels-514_banner_transparencia02.png">
+                            <img alt="Solicitud de informacion Ley de Transparencia" src="/PRL/resources/img/channels-514_banner_transparencia02.png">
                         </a>
                     </div>
+
                     <ul class="list-inline">
                         <li>
                             <a href="http://www.bibliotecaspublicas.cl/sitio/">Inicio</a>
@@ -160,19 +160,21 @@
                             <a href="http://www.dibam.cl/614/w3-propertyvalue-40755.html">Contacto</a>
                         </li>
                     </ul>
-                </div>
-                <div class="clear"></div>
-                <div id="fuentes_imagenes" class="invisible">
-                    <a href="img/articles-29513_header_1.jpg" title="Ir a ">imagen</a>
-                    <a href="img/articles-29513_header_2.jpg" title="Ir a ">imagen</a>
-                    <a href="img/articles-29513_header_3.jpg" title="Ir a ">imagen</a>
-                    <a href="img/articles-29513_header_4.jpg" title="Ir a ">imagen</a>
-                    <a href="img/articles-29513_header_5.jpg" title="Ir a ">imagen</a>
-                    <a href="img/articles-29513_header_6.jpg" title="Ir a ">imagen</a>
-                    <a href="img/articles-29513_header_7.jpg" title="Ir a ">imagen</a>
-                    <a href="img/articles-29513_header_8.jpg" title="Ir a ">imagen</a>
-                    <a href="img/articles-29513_header_9.jpg" title="Ir a ">imagen</a>
 
+                </div>
+
+                <div class="clear"></div>
+
+                <div id="fuentes_imagenes" class="invisible">
+                    <a href="/PRL/resources/img/articles-29513_header_1.jpg" title="Ir a ">imagen</a>
+                    <a href="/PRL/resources/img/articles-29513_header_2.jpg" title="Ir a ">imagen</a>
+                    <a href="/PRL/resources/img/articles-29513_header_3.jpg" title="Ir a ">imagen</a>
+                    <a href="/PRL/resources/img/articles-29513_header_4.jpg" title="Ir a ">imagen</a>
+                    <a href="/PRL/resources/img/articles-29513_header_5.jpg" title="Ir a ">imagen</a>
+                    <a href="/PRL/resources/img/articles-29513_header_6.jpg" title="Ir a ">imagen</a>
+                    <a href="/PRL/resources/img/articles-29513_header_7.jpg" title="Ir a ">imagen</a>
+                    <a href="/PRL/resources/img/articles-29513_header_8.jpg" title="Ir a ">imagen</a>
+                    <a href="/PRL/resources/img/articles-29513_header_9.jpg" title="Ir a ">imagen</a>
                 </div>
             </div>
         </div>

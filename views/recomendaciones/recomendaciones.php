@@ -72,7 +72,7 @@
                         <div id="recomendaciones-panel">        
                         <!--Recomendaciones Panel contenido-->                
                             <div class="col-lg-12 recomendaciones-item">
-                                <a href="#comiteModal1" class="recomendaciones-link"  data-toggle="modal">
+                                <a href="/PRL/views/recomendaciones/recomendaciones_set.php" class="recomendaciones-link"  data-toggle="modal">
                                     <div class="panel">
                                         <div class="panel-body">
                                             <div class="recomendaciones-hover">

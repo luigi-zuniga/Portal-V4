@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
-    <title>Ficha del Comité - Recomendaciones de Lectura</title>
+    <title>Títulos Recomendaciones - Recomendaciones de Lectura</title>
     <link rel="shortcut icon" href="/PRL/resources/img/PRL-logotipo-color.png">
 
     <!--Fuentes-->
@@ -32,20 +32,98 @@
         <!--Menu izquierdo con submenu-->
         <?php
             include("./../../shared/header.php");
+        ?>
+        
+        <?php
             include("./../../shared/nav.php");
         ?>
 
 
         <div id="container">
+            <div class="col-lg-12">
+            <div id="formulario_feed" class="col-lg-3 box-busqueda pull-left">
+                     <form  action="ejem_lista_busqueda.php">
+                        <label class="control-label">Busca:</label>
+
+
+                        <input class="form-control lead" name="" placeholder="¿Buscas algo en particular?" type="text">
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary btn-sm">Buscar</button>
+                            </div>
+                        <br/>
+
+                        <!--Mensaje-->
+                        <label><strong>Filtrar:</strong></label>
+
+                        <!--Filtro por año-->
+                        <label class="control-label">Año de Publicacion:</label>
+                        <select id="filtroYear">
+                            <option value="">Seleccione una Opción</option>
+                        </select>
+                        <br/>
+
+                        <!--filtro por Area-->
+                        <label class="control-label">Area:</label>
+                        <select id="filtroRegion">
+                            <option value="">Seleccione una Opción</option>
+                        </select>
+
+               
+
+                        <!--Filtro por materia-->
+                        <label class="control-label">Materias:</label>
+                        <select class="js-source-states">
+                        <optgroup label="Alaskan/Hawaiian Time Zone">
+                            <option value="AK">Alaska</option>
+                            <option value="HI">Hawaii</option>
+                        </optgroup>
+                        <optgroup label="Pacific Time Zone">
+                            <option value="CA">California</option>
+                            <option value="NV">Nevada</option>
+                            <option value="OR">Oregon</option>
+                            <option value="WA">Washington</option>
+                        </optgroup>
+                        </select>
+
+                  
+
+                        <!--Rango Etario-->
+                        <label class="control-label">Rango Etario:</label>
+                        <select tabindex="-1" aria-hidden="true">
+                            <option value="">Público General</option>
+                            <option value="">Infantil</option>
+                            <option value="">Juvenil</option>
+                            <option value="">Adulto</option>
+                            <option value="">Adulto Mayor</option>
+                        </select>
+
+                       
+                       <div class="lead"></div>
+
+                        <!-- Boton Aplicar-->
+                       
+                        <div class="text-center">
+                            <button type="button" class="btn btn-primary btn-sm">Aplicar</button>
+                        </div>
+                        <div class="lead"></div>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-success">Exportar XLS</a>     
+                        </div>
+
+                    
+                        <br>
+                    </form>
+            </div>
             <div class="col-lg-9 col-md-9">
-           
+
             <nav>            
                 <ol class="breadcrumb navegacion">
                     <li><a href="./../../index.php">Inicio</a></li>
-                    <li><a href="./../comites/comites.php">Comités</a></li>
-                    <li class="active"><a href="#">Ficha Comitè</a></li>
+                    <li><a href="./../recomendaciones/recomendaciones.php">Recomendaciones</a></li>
+                    <li class="active"><a href="#">Títulos</a></li>
                 </ol>
             </nav>
+
 
 
             <main>
@@ -53,65 +131,21 @@
                     <section>
                         <div class="row">
                             <div class="col-lg-8">
-                                <h3>Título_del_comité</h3>
+                                <h3>TITULO_SET_DE_RECOMENDACIONES</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur quos, cupiditate nisi maxime quasi repellat odio fuga blanditiis iure quas delectus voluptate aut qui libero labore vitae rerum, minus veritatis, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur quos, cupiditate nisi maxime quasi repellat odio fuga blanditiis iure quas delectus voluptate aut qui libero labore vitae rerum, minus veritatis Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur quos, cupiditate nisi maxime quasi repellat odio fuga blanditiis iure quas delectus voluptate aut qui libero labore vitae rerum, minus veritatis.</p>
                             </div>
-                            <div class="col-lg-4">
-                                 <h1><span class="label label-info">Año 2019</span></h1>
+                            <div class="setDescription col-lg-4 text-left">
+                                <label for="">Recomendado por:</label>
+                                <p>comité</p>
+                                <label for="">Año:</label>
+                                <p>2018</p>
+                                <br/>
+                                <a href="#"><h5 class="label label-default">Ver más recomendaciones</h5    ></a>
                             </div>
                         </div>
                     </section>
 
-                    <h3>Miembros</h3>
-
-                    <section class="row">
-                            <div class="col-lg-3">
-                                <figure>
-                                    <a href="#comiteModal1" data-toggle="modal">
-                                    <img src="/PRL/resources/img/user_com.jpg" class="img-responsive" alt=""/>
-                                    </a>
-                                    <figcaption><h6>Nombre_del_integrante</h6></figcaption>
-                                </figure>  
-                            </div>
-
-                            <div class="col-lg-3">
-                                <figure>
-                                    <a href="#comiteModal1" data-toggle="modal">
-                                    <img src="/PRL/resources/img/user_com.jpg" class="img-responsive" alt=""/>
-                                    </a>
-                                    <figcaption><h6>Nombre_del_integrante</h6></figcaption>
-                                </figure>  
-                            </div>
-
-                            <div class="col-lg-3">
-                                <figure>
-                                    <a href="#comiteModal1" data-toggle="modal">
-                                    <img src="/PRL/resources/img/user_com.jpg" class="img-responsive" alt=""/>
-                                    </a>
-                                    <figcaption><h6>Nombre_del_integrante</h6></figcaption>
-                                </figure>  
-                            </div>
-
-                            <div class="col-lg-3">
-                                <figure>
-                                    <a href="#comiteModal1" data-toggle="modal">
-                                    <img src="/PRL/resources/img/user_com.jpg" class="img-responsive" alt=""/>
-                                    </a>
-                                    <figcaption><h6>Nombre_del_integrante</h6></figcaption>
-                                </figure>  
-                            </div>
-
-                    </section>
-
                      <section id="ejemplar" class="main-container">  
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <header class="text-left">
-                                        <h3>Recomendaciones del Último Comité</h3>
-                                        <p class="hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur explicabo laborum aperiam quod tempora necessitatibus ab nesciunt, velit et facilis at illo a corporis vitae voluptates? Nulla atque suscipit necessitatibus.</p>
-                                    </header>
-                                </div>
-                            </div>
 
                             <div class="row">
                                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
@@ -242,7 +276,7 @@
 
                 </article>
             </main>
-
+            </div>
 
             </div>
 

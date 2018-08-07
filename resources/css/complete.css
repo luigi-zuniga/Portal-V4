@@ -5278,7 +5278,7 @@ div.sombra-footer {
 }
 #formulario_feed legend {
     border: medium none;
-	font-size: 1.2em!important;
+	font-size: 1.5em!important;
 	font-weight: normal;
 	color: #6d6d6d;
 	font-family: oswald;
@@ -5288,7 +5288,7 @@ div.sombra-footer {
 #formulario_feed label {
     border-top:none!important;
 	display: block;
-	font-size: 0.9em;
+	font-size: 1.3em;
 	font-weight:normal!important;
 	margin-top: 1em;
 	padding: 0.5em 0 0;
@@ -5300,13 +5300,14 @@ div.sombra-footer {
 #formulario_feed input[type="text"] {
 	border: 2px solid #cacaca!important;
 	font-size: 13px!important;
-	height: 20px!important;
-	width: 187px!important;
+	height: 29px!important;
+	width: 199px!important;
 	color: #787878!important;
 	padding: 2px 5px!important;
 	margin-left: 10px!important;
 	background:#FFF!important;
 }
+
 #formulario_feed form textarea {
     background-color: #F1F1F1;
     border: 1px solid #CCCCCC;

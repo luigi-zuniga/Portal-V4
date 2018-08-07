@@ -42,8 +42,7 @@
             <nav>            
             <ol class="breadcrumb navegacion">
                 <li><a href="./../../index.php">Inicio</a></li>
-                <li><a href="#">Recomendaciones</a></li>
-                <li class="active"><a href="./views/recomendaciones/recomendaciones.php">Set Recomendaciones</a></li>
+                <li class="active"><a href="#">Recomendaciones</a></li>
             </ol>
             </nav>
 
@@ -85,7 +84,7 @@
                                                             
                                             <!--Contenido Footer del panel-->
                                             <div class="footer-description">
-                                                <label class="label label-default">Año: 2015</label>
+                                                <label class="label label-danger">Año: 2015</label>
                                                 <small><strong>Comité:</strong> Nombre_del_comité_encargado</small>
                                                 <i class="fa fa-book fa-2x pull-right"></i>
                                             </div>
@@ -114,7 +113,7 @@
                                                             
                                             <!--Contenido Footer del panel-->
                                             <div class="footer-description">
-                                                <label class="label label-default">Año: 2015</label>
+                                                <label class="label label-danger">Año: 2015</label>
                                                 <small><strong>Comité:</strong> Nombre_del_comité_encargado</small>
                                                 <i class="fa fa-book fa-2x pull-right"></i>
                                             </div>
@@ -142,7 +141,7 @@
                                                             
                                             <!--Contenido Footer del panel-->
                                             <div class="footer-description">
-                                                <label class="label label-default">Año: 2015</label>
+                                                <label class="label label-danger">Año: 2015</label>
                                                 <small><strong>Comité:</strong> Nombre_del_comité_encargado</small>
                                                 <i class="fa fa-book fa-2x pull-right"></i>
                                             </div>

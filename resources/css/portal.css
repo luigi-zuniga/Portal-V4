@@ -352,7 +352,7 @@
   
     section h2.section-heading
     {
-      font-size:23px;
+      font-size:16px;
     }
   
     .footer-description i {
@@ -794,6 +794,27 @@
     font-weight: lighter;
     padding: 10px 70px;
 }
+
+.label-danger {
+  background-color: #9A3C1C;
+  color: #FFFFFF;
+  font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+  padding: 5px 15px;
+}
+
+
+.label-success {
+  background-color: #449D44;
+  color: #FFFFFF;
+  font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+  padding: 5px 15px;
+}
+
+
   .panel
   {
     border:1px solid #e5e5e5;
@@ -888,3 +909,54 @@
   {
     margin-top:20px;
   }
+
+  span.termino_busqueda
+  {
+    color:#D85D18;
+  }
+
+  .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: #eee;
+    cursor: default;
+    background-color: #e4701e;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+}
+
+
+
+.ejemplar-box-right
+{
+  margin-top:10px;
+}
+
+label.heading
+{
+  font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: none;
+  font-weight: lighter;
+  font-size: 16px;
+  color: #626262;
+  padding-bottom:5px;
+}
+
+a.label.label-success.ejemplar-btn-export
+{
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.nav-tabs > li > a {
+  margin-right: 2px;
+  line-height: 1.42857143;
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0;
+  background-color: #eee;
+}
+
+p.ejem-nombreAutor
+{
+  font-size: 14px;
+}

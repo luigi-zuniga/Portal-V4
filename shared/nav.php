@@ -113,7 +113,7 @@
                         <a href="http://www.bibliotecaspublicas.cl/sitio/Contenido/Publicaciones/">Publicaciones</a>
                     </li>
                 </ul>
-               
-            </div>
-            <span class="clearfix"></span>
-    </div>
+                
+            
+</div>
+</div>

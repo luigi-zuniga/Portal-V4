@@ -41,13 +41,6 @@
                             <a href="https://www.youtube.com/user/BiblioRedesTV" title="Ir a Youtube">Encuentranos en Youtube</a>
                             <div style="display:none"></div>
                         </div>
-                        <div id="NTGbtn_mapa">
-                            <a href="http://www.bibliotecaspublicas.cl/sitio/Mapa-del-sitio" title="Ir a Sistema Nacional de Bibliotecas Públicas">Mapa del sitio</a>
-                        </div>
-                        <div id="NTGbtn_rss" class="blank">
-                            <a href="http://www.bibliotecaspublicas.cl/rss3-channel.rss" title="Ir a RSS">RSS</a>
-                            <div style="display:none"></div>
-                        </div>
                     </div>
                 </div>
             </div>

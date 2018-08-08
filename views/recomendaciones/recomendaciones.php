@@ -39,13 +39,11 @@
 
         <div id="container">
             <div class="col-lg-9 col-md-9">
-            <nav>            
-            <ol class="breadcrumb navegacion">
-                <li><a href="./../../index.php">Inicio</a></li>
-                <li class="active"><a href="#">Recomendaciones</a></li>
-            </ol>
-            </nav>
 
+            <div class="navegacion">
+               <p class="navegacion"><a class="channellink" href="./../../index.php">Inicio</a> / 
+               <a  href="#">Recomendaciones</a></p>
+            </div>
 
         <main>
             <article>

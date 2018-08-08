@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
-    <title>Comités - Recomendaciones de Lectura</title>
+    <title>Otros Comités - Recomendaciones de Lectura</title>
     <link rel="shortcut icon" href="/PRL/resources/img/PRL-logotipo-color.png">
 
     <!--Fuentes-->
@@ -42,29 +42,16 @@
             <nav>            
                 <div class="navegacion">
                     <p class="navegacion"><a class="channellink" href="./../../index.php">Inicio</a> / 
-                    <a href="#">Comités</a>
+                    <a href="#">Otros Comités</a>
                     </p>
                 </div>
             </nav>
 
-
         <main>
             <article>
                 <header class="text-left">
-                    <h3>Comités</h3>
+                    <h3>Otros Comités</h3>
                 </header>
-
-
-                <section class="pull-right">  
-                    <div id="busquedaFiltro">
-                        <label for="input">Orden:</label>
-                        <select name="" id="input">
-                            <option value="1">Más nuevos primero</option>
-                            <option value="2">Más antiguos primero</option>
-                        </select>
-                    </div>   
-                </section>
-
                 <section id="comites">
                         <!-- inicio fila ** recomendaciones-->
                         <div class="row"> 
@@ -72,7 +59,7 @@
                         <div id="recomendaciones-panel">        
                         <!--Recomendaciones Panel contenido-->                
                             <div class="col-lg-12 recomendaciones-item">
-                                <a href="/PRL/views/comites/comite_ficha.php" class="recomendaciones-link"  data-toggle="modal">
+                                <a href="#comiteModal1" class="recomendaciones-link"  data-toggle="modal">
                                     <div class="panel">
                                         <div class="panel-body">
                                             <div class="recomendaciones-hover">
@@ -80,7 +67,7 @@
                                                         <i class="fa fa-eye fa-1x"><span>Ver<span></i>
                                                     </div>
                                             </div>
-                                            <h4>Título del set de recomendaciones de uno hasta tres </h4>
+                                            <h4>Título del comite de uno hasta tres </h4>
                                             <small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</small>
                                                             
                                             <!--Contenido Footer del panel-->
@@ -101,7 +88,7 @@
                         <div id="recomendaciones-panel">        
                         <!--Recomendaciones Panel contenido-->                
                             <div class="col-lg-12 recomendaciones-item">
-                                <a href="/PRL/views/comites/comite_ficha.php" class="recomendaciones-link"  data-toggle="modal">
+                                <a href="#comiteModal1" class="recomendaciones-link"  data-toggle="modal">
                                     <div class="panel">
                                         <div class="panel-body">
                                             <div class="recomendaciones-hover">
@@ -109,7 +96,7 @@
                                                         <i class="fa fa-eye fa-1x"><span>Ver<span></i>
                                                     </div>
                                             </div>
-                                            <h4>Título del set de recomendaciones de uno hasta tres </h4>
+                                            <h4>Título del comite de uno hasta tres </h4>
                                             <small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</small>
                                                             
                                             <!--Contenido Footer del panel-->
@@ -129,7 +116,7 @@
                         <div id="recomendaciones-panel">        
                         <!--Recomendaciones Panel contenido-->                
                             <div class="col-lg-12 recomendaciones-item">
-                                <a href="/PRL/views/comites/comite_ficha.php" class="recomendaciones-link"  data-toggle="modal">
+                                <a href="#comiteModal1" class="recomendaciones-link"  data-toggle="modal">
                                     <div class="panel">
                                         <div class="panel-body">
                                             <div class="recomendaciones-hover">
@@ -137,7 +124,7 @@
                                                         <i class="fa fa-eye fa-1x"><span>Ver<span></i>
                                                     </div>
                                             </div>
-                                            <h4>Título del set de recomendaciones de uno hasta tres </h4>
+                                            <h4>Título del comite de uno hasta tres </h4>
                                             <small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</small>
                                                             
                                             <!--Contenido Footer del panel-->
@@ -166,6 +153,33 @@
             include("./../../shared/footer.php")
         ?>
         <!--*********************************-->
+
+    <!--Modal Comite-->
+    <div class="modal fade" id="comiteModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title text-center">Título_del_comité_en_un_reglón</h4>
+                </div>
+                <div class="modal-body row">
+                     <!--  Detalle -->
+                     <div class="col-lg-4">
+                         <img class="img-responsive img-centered" src="https://dummyimage.com/300x400/575757/e6e6ed.jpg" alt="" width="200px">
+                    </div>
+                    <div class="col-lg-8 text-left">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed sequi et possimus ducimus modi id totam est explicabo magnam excepturi. Dolores labore animi dolore nostrum odit. Sit, doloribus. Omnis, obcaecati!</p>     
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    <a href="https://www.google.cl/?gws_rd=ssl" target="_blank" class="btn btn-default">                       
+                            <i class="fa fa-plus"></i> Más información
+                        </a> 
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 

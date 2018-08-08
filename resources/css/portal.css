@@ -787,7 +787,7 @@
   }
   
   .label-info{
-    background-color: #E2712D;
+    background-color: #9A3C1C;
     color: #FFFFFF;
     font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 24px;
@@ -976,4 +976,21 @@ a.label.label-success.ejemplar-btn-export
 p.ejem-nombreAutor
 {
   font-size: 14px;
+}
+
+.tab-content.box-description
+{
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+
+#contacto
+{
+  margin-top:10px;
+  margin-bottom:300px;
+}
+
+#acerca
+{
+  margin-bottom:50px;
 }

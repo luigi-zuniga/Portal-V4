@@ -87,10 +87,10 @@
                                 <a href="/PRL/views/comites/comites.php">Comités</a>
                             </li>
                             <li class=" pvid-40568 cid-524">
-                                <a href="/PRL/views/contacto.php">Contacto</a>
+                                <a href="/PRL/views/contacto/contacto.php">Contacto</a>
                             </li>
                             <li class=" pvid-40569 cid-524">
-                                <a href="./acerca-de">Acerca de</a>
+                                <a href="/PRL/views/acercade/acercade.php">Acerca de</a>
                             </li>
                         </ul>
                     </li>

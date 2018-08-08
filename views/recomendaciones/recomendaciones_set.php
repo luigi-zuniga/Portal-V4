@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
     <title>Títulos Recomendaciones - Recomendaciones de Lectura</title>
     <link rel="shortcut icon" href="/PRL/resources/img/PRL-logotipo-color.png">
 
@@ -123,10 +122,10 @@
                                 <a href="/PRL/views/comites/comites.php">Comités</a>
                             </li>
                             <li class=" pvid-40568 cid-524">
-                                <a href="/PRL/views/contacto.php">Contacto</a>
+                                <a href="/PRL/views/contacto/contacto.php">Contacto</a>
                             </li>
                             <li class=" pvid-40569 cid-524">
-                                <a href="./acerca-de">Acerca de</a>
+                                <a href="/PRL/views/acercade/acercade.php">Acerca de</a>
                             </li>
                         </ul>
                     </li>
@@ -156,7 +155,7 @@
                     <form name="" class="formulario" method="GET" action="">
                                 <!--campo de texto busqueda-->
                                 <label><strong>Busca:</strong></label>
-                                <input name="" value="" size="33" type="text" placeholder="¿Busca algo en particular?">
+                                <input name="" value="" size="33" type="text" placeholder="Buscar por">
                         
                                 <!--boton buscar-->
                                 <div class="form_button">
@@ -207,12 +206,15 @@
         <div id="container">
             <div class="col-lg-9 col-md-9">
             <nav>            
-                <ol class="breadcrumb navegacion">
-                    <li><a href="./../../index.php">Inicio</a></li>
-                    <li><a href="./../recomendaciones/recomendaciones.php">Recomendaciones</a></li>
-                    <li class="active"><a href="#">Títulos</a></li>
-                </ol>
+            <div class="navegacion">
+               <p class="navegacion"><a class="channellink" href="./../../index.php">Inicio</a> / 
+               <a href="./../recomendaciones/recomendaciones.php">Recomendaciones</a> /
+               <a href="#">Set Recomendaciones</a>
+              </p>
+            </div>
             </nav>
+
+            
 
             <main>
                 <article>
@@ -220,15 +222,15 @@
                         <div class="row">
                             <div class="col-lg-8">
                                 <h3>TITULO_SET_DE_RECOMENDACIONES</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur quos, cupiditate nisi maxime quasi repellat odio fuga blanditiis iure quas delectus voluptate aut qui libero labore vitae rerum, minus veritatis, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur quos, cupiditate nisi maxime quasi repellat odio fuga blanditiis iure quas delectus voluptate aut qui libero labore vitae rerum, minus veritatis Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur quos, cupiditate nisi maxime quasi repellat odio fuga blanditiis iure quas delectus voluptate aut qui libero labore vitae rerum, minus veritatis.</p>
+                                <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur quos, cupiditate nisi maxime quasi repellat odio fuga blanditiis iure quas delectus voluptate aut qui libero labore vitae rerum, minus veritatis, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur quos, cupiditate nisi maxime quasi repellat odio fuga blanditiis iure quas delectus voluptate aut qui libero labore vitae rerum, minus veritatis Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur quos, cupiditate nisi maxime quasi repellat odio fuga blanditiis iure quas delectus voluptate aut qui libero labore vitae rerum, minus veritatis.</p>
                             </div>
                             <div class="setDescription col-lg-4 text-left">
                                 <label for="">Recomendado por:</label>
-                                <p>comité</p>
+                                <p> <a href="../../views/comites/comite_ficha.php">Comité</a></p>
                                 <label for="">Año:</label>
                                 <p>2018</p>
                                 <br/>
-                                <a href="#"><h5 class="label label-default">Ver más recomendaciones</h5    ></a>
+                                <a href="../recomendaciones/recomendaciones.php"><h5 class="label label-default">Ver más recomendaciones</h5    ></a>
                             </div>
                         </div>
                     </section>
@@ -238,7 +240,7 @@
                             <div class="row">
                                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
                                         <h6>Título del libro en no más de uno o dos reglones</h6>
-                                        <a href="#ejemplarModal1" class="ejemplar-link" data-toggle="modal">
+                                        <a href="/PRL/views/recomendaciones/recomedaciones_detalle_ejem.php" class="ejemplar-link">
                                             <div class="ejemplar-hover">
                                                 <div class="ejemplar-hover-content">
                                                     <i class="fa fa-eye fa-1x"><span>Ver<span></i>
@@ -253,7 +255,7 @@
                                 
                                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
                                             <h6>Título del libro en no más de uno o dos reglones</h6>
-                                            <a href="#ejemplarModal1" class="ejemplar-link" data-toggle="modal">
+                                            <a href="/PRL/views/recomendaciones/recomedaciones_detalle_ejem.php" class="ejemplar-link">
                                                 <div class="ejemplar-hover">
                                                     <div class="ejemplar-hover-content">
                                                         <i class="fa fa-eye fa-1x"><span>Ver<span></i>
@@ -268,7 +270,7 @@
 
                                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
                                             <h6>Título del libro en no más de uno o dos reglones</h6>
-                                            <a href="#ejemplarModal1" class="ejemplar-link" data-toggle="modal">
+                                            <a href="/PRL/views/recomendaciones/recomedaciones_detalle_ejem.php" class="ejemplar-link" >
                                                 <div class="ejemplar-hover">
                                                     <div class="ejemplar-hover-content">
                                                         <i class="fa fa-eye fa-1x"><span>Ver<span></i>
@@ -283,7 +285,7 @@
 
                                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
                                             <h6>Título del libro en no más de uno o dos reglones</h6>
-                                            <a href="#ejemplarModal1" class="ejemplar-link" data-toggle="modal">
+                                            <a href="/PRL/views/recomendaciones/recomedaciones_detalle_ejem.php" class="ejemplar-link">
                                                 <div class="ejemplar-hover">
                                                     <div class="ejemplar-hover-content">
                                                         <i class="fa fa-eye fa-1x"><span>Ver<span></i>
@@ -298,7 +300,7 @@
 
                                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
                                             <h6>Título del libro en no más de uno o dos reglones</h6>
-                                            <a href="#ejemplarModal1" class="ejemplar-link" data-toggle="modal">
+                                            <a href="/PRL/views/recomendaciones/recomedaciones_detalle_ejem.php" class="ejemplar-link">
                                                 <div class="ejemplar-hover">
                                                     <div class="ejemplar-hover-content">
                                                         <i class="fa fa-eye fa-1x"><span>Ver<span></i>
@@ -313,7 +315,7 @@
                                     
                                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
                                             <h6>Título del libro en no más de uno o dos reglones</h6>
-                                            <a href="#ejemplarModal1" class="ejemplar-link" data-toggle="modal">
+                                            <a href="/PRL/views/recomendaciones/recomedaciones_detalle_ejem.php" class="ejemplar-link">
                                                 <div class="ejemplar-hover">
                                                     <div class="ejemplar-hover-content">
                                                         <i class="fa fa-eye fa-1x"><span>Ver<span></i>
@@ -328,7 +330,7 @@
 
                                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
                                             <h6>Título del libro en no más de uno o dos reglones</h6>
-                                            <a href="#ejemplarModal1" class="ejemplar-link" data-toggle="modal">
+                                            <a href="/PRL/views/recomendaciones/recomedaciones_detalle_ejem.php" class="ejemplar-link">
                                                 <div class="ejemplar-hover">
                                                     <div class="ejemplar-hover-content">
                                                         <i class="fa fa-eye fa-1x"><span>Ver<span></i>
@@ -343,7 +345,7 @@
                                     
                                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
                                         <h6>Título del libro en no más de uno o dos reglones</h6>
-                                        <a href="#ejemplarModal1" class="ejemplar-link" data-toggle="modal">
+                                        <a href="/PRL/views/recomendaciones/recomedaciones_detalle_ejem.php" class="ejemplar-link">
                                             <div class="ejemplar-hover">
                                                 <div class="ejemplar-hover-content">
                                                     <i class="fa fa-eye fa-1x"><span>Ver<span></i>

@@ -156,7 +156,7 @@
                     <form name="" class="formulario" method="GET" action="">
                                 <!--campo de texto busqueda-->
                                 <label><strong>Busca:</strong></label>
-                                <input name="" value="" size="33" type="text" placeholder="¿Busca algo en particular?">
+                                <input name="" value="" size="33" type="text" placeholder="Buscar por">
                         
                                 <!--boton buscar-->
                                 <div class="form_button">
@@ -207,10 +207,11 @@
         <div id="container">
             <div class="col-lg-9 col-md-9">
                 <nav>            
-                    <ol class="breadcrumb navegacion">
-                        <li><a href="./../../index.php">Inicio</a></li>
-                        <li class="active"><a href="./../recomendaciones/recomendaciones.php">Libros</a></li>
-                    </ol>
+                    <div class="navegacion">
+                        <p class="navegacion"><a class="channellink" href="./../../index.php">Inicio</a> / 
+                        <a href="#">Libros</a>
+                        </p>
+                    </div>
                 </nav>
 
                     <main>

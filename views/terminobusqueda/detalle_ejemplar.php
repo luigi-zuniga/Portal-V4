@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ficha Libro - Recomendaciones de Lectura</title>
+    <title>Detalle Ejemplar - Recomendaciones de Lectura</title>
     <link rel="shortcut icon" href="/PRL/resources/img/PRL-logotipo-color.png">
 
     <!--Fuentes-->
@@ -36,15 +36,12 @@
 
         <div id="container">
             <div class="col-lg-9">
-                <nav>            
-                    <div class="navegacion">
-                        <p class="navegacion"><a class="channellink" href="./../../index.php">Inicio</a> / 
-                        <a href="./../ejemplares/ejemplares.php">Libros</a> /
-                        <a href="#">Detalle Ejemplar</a>
-                        </p>
-                    </div>
-                </nav>
+            <div class="navegacion">
+               <p class="navegacion"><a class="channellink" href="./../../index.php">Inicio</a> / 
+               <a  href="#">Detalle Ejemplar</a></p>
             </div>
+            </div>
+
 
             <div class="col-lg-9 col-md-9" style="margin-bottom:60px;">
 
@@ -208,7 +205,6 @@
                             <section id="ejemplar" class="main-container">  
 
                                     <div class="row">
-                                            
                                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
                                                 <h6>Título del libro en no más de uno o dos reglones</h6>
                                                 <a href="#ejemplarModal1" class="ejemplar-link" data-toggle="modal">
@@ -223,8 +219,7 @@
                                                     <small>Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
                                                 </div>
                                             </div>
-
-                                                         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
+                                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
                                                 <h6>Título del libro en no más de uno o dos reglones</h6>
                                                 <a href="#ejemplarModal1" class="ejemplar-link" data-toggle="modal">
                                                     <div class="ejemplar-hover">
@@ -238,8 +233,7 @@
                                                     <small>Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
                                                 </div>
                                             </div>
-
-                                                         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
+                                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
                                                 <h6>Título del libro en no más de uno o dos reglones</h6>
                                                 <a href="#ejemplarModal1" class="ejemplar-link" data-toggle="modal">
                                                     <div class="ejemplar-hover">
@@ -252,24 +246,8 @@
                                                 <div class="ejemplar-caption">
                                                     <small>Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
                                                 </div>
-                                            </div>
-
-                                                         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
-                                                <h6>Título del libro en no más de uno o dos reglones</h6>
-                                                <a href="#ejemplarModal1" class="ejemplar-link" data-toggle="modal">
-                                                    <div class="ejemplar-hover">
-                                                        <div class="ejemplar-hover-content">
-                                                            <i class="fa fa-eye fa-1x"><span>Ver<span></i>
-                                                        </div>
-                                                    </div>
-                                                    <img src="/PRL/resources/img/book-portada.jpg" class="img-responsive" alt="">                            
-                                                </a>
-                                                <div class="ejemplar-caption">
-                                                    <small>Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
-                                                </div>
-                                            </div>
-
-                                            
+                                            </div>    
+                                           
                                     </div>
                                 
                             </section>
@@ -279,8 +257,6 @@
                 </div>
             <!--contenedor de 9 columnas-->
         </div>
-
-
       <!--  Modal Libro -->
       <div class="modal fade" id="ejemplarModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
@@ -306,13 +282,14 @@
                 </div>
                 <div class="modal-footer">
                       <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-                          <a href="../ejemplares/ejemplar_description.php" class="btn btn-default">                    
+                          <a href="../../views/ejemplares/ejemplar_description.php" class="btn btn-default">                    
                           <i class="fa fa-plus"></i> Más información
                       </a> 
                 </div>
            </div>
         </div>
      </div>
+
         <!--************  Footer   ***********-->
         <?php
             include("./../../shared/footer.php")

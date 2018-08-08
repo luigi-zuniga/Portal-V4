@@ -445,9 +445,9 @@
   
   }
   
-  section {
+  /* section {
     padding: 40px 0;
-  }
+  } */
   
   section h2.section-heading {
     font-family: "Oswald", sans-serif;
@@ -815,10 +815,7 @@
 }
 
 
-  .panel
-  {
-    border:1px solid #e5e5e5;
-  }
+ 
   
   .footer-description {
     margin-top:10px;
@@ -831,11 +828,31 @@
     font-size: 30px;
   }
   
+  .panel.pnael-comite {
+      margin-bottom: 20px;
+      background-color: #fff;
+      border:0px;
+      border-radius: 0px;
+      -webkit-box-shadow: 0;
+      box-shadow: 0; 
+    } 
+
+  .panel-body.comite-box {
+    background: #e2712d;
+    color: #fff;
+}
+
+
+  .panel
+  {
+    border:1px solid #e5e5e5;
+  }
 
   .panel-body
   {
     background:#F7F3F2;
   }
+
 
   .panel-body h4
   {

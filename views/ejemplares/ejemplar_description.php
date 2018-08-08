@@ -117,8 +117,19 @@
                             
                             </div>
                         <!--Fin contenedor NAV-TAB-->
-
-
+                        <div class="box-otros-comites">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                <div class="panel panel-comite text-center">
+                                    <div class="panel-body comite-box">Nombre del Comité -2016</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                <div class="panel panel-comite text-center">
+                                    <div class="panel-body comite-box">Nombre del Comité -2016</div>
+                                </div>
+                            </div>
+                        </div>
+                        
                     </div>
                  <!--Descripcion nav-->
                  
@@ -174,14 +185,143 @@
 
                     </div>
 
-                    <div class="box-otros-comites">
-                            <div class="col-lg-6">
-                                 <label for="" class="label label-primary">Nombre de comite 1 - 2016</label>
-                            </div>
-                            <div class="col-lg-6">
-                                 <label for="" class="label label-default">Nombre de comite 1 - 2016</label>
-                            </div>
-                    </div>
+                    <main>
+                        <article>
+                            <section>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <h3>OTROS LIBROS RECOMENDADOS</h3>
+                                    </div>
+                                </div>
+                            </section>
+
+                            <section id="ejemplar" class="main-container">  
+
+                                    <div class="row">
+                                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
+                                                <h6>Título del libro en no más de uno o dos reglones</h6>
+                                                <a href="/PRL/views/ejemplares/ejemplar_description.php" class="ejemplar-link">
+                                                    <div class="ejemplar-hover">
+                                                        <div class="ejemplar-hover-content">
+                                                            <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                                                        </div>
+                                                    </div>
+                                                    <img src="/PRL/resources/img/book-portada.jpg" class="img-responsive" alt="">                            
+                                                </a>
+                                                <div class="ejemplar-caption">
+                                                    <small>Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
+                                                </div>
+                                            </div>
+                                        
+                                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
+                                                <h6>Título del libro en no más de uno o dos reglones</h6>
+                                                <a href="/PRL/views/ejemplares/ejemplar_description.php" class="ejemplar-link">
+                                                    <div class="ejemplar-hover">
+                                                        <div class="ejemplar-hover-content">
+                                                            <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                                                        </div>
+                                                    </div>
+                                                    <img src="/PRL/resources/img/book-portada.jpg" class="img-responsive" alt="">                            
+                                                </a>
+                                                <div class="ejemplar-caption">
+                                                    <small>Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
+                                                <h6>Título del libro en no más de uno o dos reglones</h6>
+                                                <a href="/PRL/views/ejemplares/ejemplar_description.php" class="ejemplar-link">
+                                                    <div class="ejemplar-hover">
+                                                        <div class="ejemplar-hover-content">
+                                                            <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                                                        </div>
+                                                    </div>
+                                                    <img src="/PRL/resources/img/book-portada.jpg" class="img-responsive" alt="">                            
+                                                </a>
+                                                <div class="ejemplar-caption">
+                                                    <small>Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
+                                                <h6>Título del libro en no más de uno o dos reglones</h6>
+                                                <a href="/PRL/views/ejemplares/ejemplar_description.php" class="ejemplar-link">
+                                                    <div class="ejemplar-hover">
+                                                        <div class="ejemplar-hover-content">
+                                                            <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                                                        </div>
+                                                    </div>
+                                                    <img src="/PRL/resources/img/book-portada.jpg" class="img-responsive" alt="">                            
+                                                </a>
+                                                <div class="ejemplar-caption">
+                                                    <small>Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
+                                                <h6>Título del libro en no más de uno o dos reglones</h6>
+                                                <a href="/PRL/views/ejemplares/ejemplar_description.php" class="ejemplar-link">
+                                                    <div class="ejemplar-hover">
+                                                        <div class="ejemplar-hover-content">
+                                                            <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                                                        </div>
+                                                    </div>
+                                                    <img src="/PRL/resources/img/book-portada.jpg" class="img-responsive" alt="">                            
+                                                </a>
+                                                <div class="ejemplar-caption">
+                                                    <small>Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
+                                                <h6>Título del libro en no más de uno o dos reglones</h6>
+                                                <a href="/PRL/views/ejemplares/ejemplar_description.php" class="ejemplar-link">
+                                                    <div class="ejemplar-hover">
+                                                        <div class="ejemplar-hover-content">
+                                                            <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                                                        </div>
+                                                    </div>
+                                                    <img src="/PRL/resources/img/book-portada.jpg" class="img-responsive" alt="">                            
+                                                </a>
+                                                <div class="ejemplar-caption">
+                                                    <small>Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
+                                                <h6>Título del libro en no más de uno o dos reglones</h6>
+                                                <a href="/PRL/views/ejemplares/ejemplar_description.php" class="ejemplar-link">
+                                                    <div class="ejemplar-hover">
+                                                        <div class="ejemplar-hover-content">
+                                                            <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                                                        </div>
+                                                    </div>
+                                                    <img src="/PRL/resources/img/book-portada.jpg" class="img-responsive" alt="">                            
+                                                </a>
+                                                <div class="ejemplar-caption">
+                                                    <small>Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
+                                                <h6>Título del libro en no más de uno o dos reglones</h6>
+                                                <a href="/PRL/views/ejemplares/ejemplar_description.php" class="ejemplar-link">
+                                                    <div class="ejemplar-hover">
+                                                        <div class="ejemplar-hover-content">
+                                                            <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                                                        </div>
+                                                    </div>
+                                                    <img src="/PRL/resources/img/book-portada.jpg" class="img-responsive" alt="">                            
+                                                </a>
+                                                <div class="ejemplar-caption">
+                                                    <small>Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
+                                                </div>
+                                            </div>
+                                    </div>
+                                
+                            </section>
+                        </article>
+                    </main>
 
                 </div>
             <!--contenedor de 9 columnas-->

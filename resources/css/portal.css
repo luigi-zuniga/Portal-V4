@@ -912,16 +912,6 @@
   }
 
 
-  /* .label-default
-  {
-    background-color: #E2712D;
-    color: #FFFFFF;
-    font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    font-weight: lighter;
-    padding: 10px 30px;
-  } */
-
   .setDescription
   {
     margin-top:20px;
@@ -993,4 +983,32 @@ p.ejem-nombreAutor
 #acerca
 {
   margin-bottom:50px;
+}
+
+.btn-group.bootstrap-select.show-tick.select-setting > .btn:first-child {
+  margin-left: 10px;
+  background: white;
+  color: #000;
+  border: 1px solid #e9e9e9;
+}
+  
+.bootstrap-select>.dropdown-toggle.bs-placeholder, .bootstrap-select>.dropdown-toggle.bs-placeholder:active, .bootstrap-select>.dropdown-toggle.bs-placeholder:focus, .bootstrap-select>.dropdown-toggle.bs-placeholder:hover {
+  color: #999 !important;
+  background: #fff !important;
+  border:solid 1px #cacaca
+}
+
+.btn-group.bootstrap-select.show-tick.select-setting > .btn:first-child {
+  margin-left: 10px;
+}
+
+
+
+.btn {
+  font-size: 11px;
+  border-radius:0px !important;
+  -webkit-border-radius:0px !important;
+  -moz-border-radius:0px !important;
+  -ms-border-radius:0px !important;
+  -o-border-radius:0px !important;
 }
